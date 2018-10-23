@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Courrier]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[Votre message a été envoyé avec succès!]]></value>
+  </definition>
+  <definition>
+    <key>text_default</key>
+    <value><![CDATA[Par défaut]]></value>
+  </definition>
+  <definition>
+    <key>text_newsletter</key>
+    <value><![CDATA[Tous les inscrits à la Newsletter]]></value>
+  </definition>
+  <definition>
+    <key>text_customer</key>
+    <value><![CDATA[Tous les clients]]></value>
+  </definition>
+  <definition>
+    <key>text_search</key>
+    <value><![CDATA[Rechercher]]></value>
+  </definition>
+  <definition>
+    <key>entry_store</key>
+    <value><![CDATA[De:]]></value>
+  </definition>
+  <definition>
+    <key>entry_product</key>
+    <value><![CDATA[Pour les clients qui ont commandé les produits:]]></value>
+  </definition>
+  <definition>
+    <key>entry_to</key>
+    <value><![CDATA[Pour:]]></value>
+  </definition>
+  <definition>
+    <key>entry_subject</key>
+    <value><![CDATA[Sujet:]]></value>
+  </definition>
+  <definition>
+    <key>entry_message</key>
+    <value><![CDATA[Message:]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[Attention: Vous n&#39;avez pas la permission d&#39;envoyer un e-mail!]]></value>
+  </definition>
+  <definition>
+    <key>error_subject</key>
+    <value><![CDATA[E-Mail Sujet nécessaire!]]></value>
+  </definition>
+  <definition>
+    <key>error_message</key>
+    <value><![CDATA[E-Mail Message nécessaire!]]></value>
+  </definition>
+  <definition>
+    <key>error_recipients</key>
+    <value><![CDATA[Les bénéficiaires nécessaire!]]></value>
+  </definition>
+  <definition>
+    <key>error_not_sent</key>
+    <value><![CDATA[&#39;Erreur: Les e-mails n&#39;est pas envoyé! S&#39;il vous plaît voir journal des erreurs pour plus de détails. &quot;]]></value>
+  </definition>
+</definitions>

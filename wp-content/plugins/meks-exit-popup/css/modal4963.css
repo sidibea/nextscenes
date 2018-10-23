@@ -1,0 +1,246 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300);
+
+#more-themes {
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 40px;
+    overflow-y: scroll;
+    opacity: 0;
+    background: #eee;
+    -webkit-font-smoothing: antialiased;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    transform: translateY(0%);
+}
+body.modal-open{
+    overflow: hidden !important;
+    position: initial;
+    display: block;
+    zoom: initial;
+}
+html.modal-open{
+    overflow: hidden !important;
+    overflow-y: hidden !important;
+     zoom: initial;
+}
+
+body.modal-open #more-themes {
+    display: block;
+    -webkit-overflow-scrolling: touch;
+}
+
+.behind {
+    position: relative;
+}
+
+#more-themes.active {
+    z-index: 99999;
+    opacity: 1;
+}
+
+.mks-content-wrapper {
+    clear: both;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.item-wrap {
+    display: inline-block;
+    position: relative;
+    width: 31%;
+    margin: 0 1% 40px;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0 0 7px rgba(0,0,0,0.1);
+    vertical-align: top;
+}
+
+.item-image {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.item-image img {
+    width: 100%;
+}
+
+.item-wrap img {
+    border-radius: 4px 4px 0 0;
+}
+
+.mks-see-more {
+    display: block;
+    z-index: 10;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    margin: -14px 0 0 -63px;
+    padding: 8px 20px;
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFF;
+    opacity: 0;
+    background: transparent;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.item-image:hover .mks-see-more {
+    top: 50%;
+    opacity: 1;
+}
+
+.mks-see-more:hover {
+    border: 1px solid #fff;
+    color: #FFF;
+    background: rgba(255,255,255,0.1);
+}
+
+.item-image:hover:after {
+    opacity: 1;
+}
+
+.newsletter-box .item-image:after {
+    opacity: 0 !important;
+}
+
+.item-txt {
+    padding: 0 50px;
+    text-align: center;
+}
+
+.item-txt h3 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+
+#more-themes p {
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    font-family: 'Roboto',sans-serif;
+    color: #333;
+}
+
+.item-buttons {
+    margin: 27px 0;
+    padding: 0 85px;
+    text-align: center;
+}
+
+.mks-pill .mks-button-middle {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.mks-pill .mks-pill-left {
+    float: left;
+    width: 50%;
+    border-radius: 5px 0 0 5px;
+}
+
+.mks-pill .mks-pill-right {
+    float: left;
+    width: 50%;
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+}
+
+.mks-button {
+    font-family: 'Roboto',sans-serif;
+    -webkit-transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -ms-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+
+.mks-button {
+    text-decoration: none !important;
+    font-weight: 400;
+}
+
+.mks-button-orange {
+    color: #7b0404;
+    background: #f9cb44;
+}
+
+.mks-button-middle,
+.submit {
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.mks-button {
+    display: inline-block;
+    -webkit-appearance: none;
+    min-width: 200px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.mks-button-orange:hover {
+    background: #f9d862;
+    color: #7b0404;
+}
+
+.mks-button-gray {
+    color: #303030 !important;
+    background: #ddd;
+}
+
+.mks-close-modal {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.modal-head {
+    width: 800px;
+    margin: 0 auto 40px;
+    text-align: center;
+    color: #333;
+    display: none;
+}
+
+.modal-title {
+    margin-bottom: 15px;
+    font-family: 'Roboto Slab';
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 42px;
+}
+
+.modal-subtitle {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+    font-family: 'Roboto',sans-serif;
+}

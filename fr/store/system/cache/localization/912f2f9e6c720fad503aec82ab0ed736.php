@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:1:{s:15:"text_powered_by";s:10:"Powered By";}

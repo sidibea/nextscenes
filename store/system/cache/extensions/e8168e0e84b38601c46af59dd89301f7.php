@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:2:{i:0;s:11:"default_cod";i:1;s:8:"paystack";}

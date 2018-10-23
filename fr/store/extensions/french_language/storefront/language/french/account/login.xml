@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Connexion au compte]]></value>
+  </definition>
+  <definition>
+    <key>text_account</key>
+    <value><![CDATA[Inscrivez-vous compte]]></value>
+  </definition>
+  <definition>
+    <key>text_login</key>
+    <value><![CDATA[Login]]></value>
+  </definition>
+  <definition>
+    <key>text_i_am_new_customer</key>
+    <value><![CDATA[Je suis un nouveau client.]]></value>
+  </definition>
+  <definition>
+    <key>text_checkout</key>
+    <value><![CDATA[Options de Commander:]]></value>
+  </definition>
+  <definition>
+    <key>text_guest</key>
+    <value><![CDATA[Invité Commander]]></value>
+  </definition>
+  <definition>
+    <key>text_create_account</key>
+    <value><![CDATA[En créant un compte vous pourrez commander plus vite, d&#39;être à jour sur le statut d&#39;un ordre, et de garder trace des commandes que vous avez faites précédemment.]]></value>
+  </definition>
+  <definition>
+    <key>text_returning_customer</key>
+    <value><![CDATA[Retour à la clientèle]]></value>
+  </definition>
+  <definition>
+    <key>text_i_am_returning_customer</key>
+    <value><![CDATA[Je suis un client de retour.]]></value>
+  </definition>
+  <definition>
+    <key>text_forgotten_password</key>
+    <value><![CDATA[Mot de passe oublié]]></value>
+  </definition>
+  <definition>
+    <key>entry_email_address</key>
+    <value><![CDATA[Adresse E-Mail:]]></value>
+  </definition>
+  <definition>
+    <key>entry_password</key>
+    <value><![CDATA[Mot de passe:]]></value>
+  </definition>
+  <definition>
+    <key>error_login</key>
+    <value><![CDATA[Erreur: Aucun résultat pour E-mail et / ou mot de passe.]]></value>
+  </definition>
+</definitions>

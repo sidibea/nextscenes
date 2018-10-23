@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Panier]]></value>
+  </definition>
+  <definition>
+    <key>text_basket</key>
+    <value><![CDATA[Panier]]></value>
+  </definition>
+  <definition>
+    <key>text_sub_total</key>
+    <value><![CDATA[Sous-total:]]></value>
+  </definition>
+  <definition>
+    <key>text_weight</key>
+    <value><![CDATA[Poids Panier:]]></value>
+  </definition>
+  <definition>
+    <key>text_error</key>
+    <value><![CDATA[Votre panier est vide!]]></value>
+  </definition>
+  <definition>
+    <key>column_remove</key>
+    <value><![CDATA[Supprimer]]></value>
+  </definition>
+  <definition>
+    <key>column_image</key>
+    <value><![CDATA[Image]]></value>
+  </definition>
+  <definition>
+    <key>column_name</key>
+    <value><![CDATA[Nom]]></value>
+  </definition>
+  <definition>
+    <key>column_model</key>
+    <value><![CDATA[Modèle]]></value>
+  </definition>
+  <definition>
+    <key>column_quantity</key>
+    <value><![CDATA[Quantité]]></value>
+  </definition>
+  <definition>
+    <key>column_price</key>
+    <value><![CDATA[Prix ​​unitaire]]></value>
+  </definition>
+  <definition>
+    <key>column_total</key>
+    <value><![CDATA[Total]]></value>
+  </definition>
+  <definition>
+    <key>error_stock</key>
+    <value><![CDATA[Les produits marqués avec *** ne sont pas disponibles en quantité voulue ou non en stock!]]></value>
+  </definition>
+  <definition>
+    <key>error_required_options</key>
+    <value><![CDATA[S&#39;il vous plaît remplir toutes les options requises!]]></value>
+  </definition>
+</definitions>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Menu]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[Succès: Vous avez modifié le menu!]]></value>
+  </definition>
+  <definition>
+    <key>entry_item_id</key>
+    <value><![CDATA[ID unique]]></value>
+  </definition>
+  <definition>
+    <key>entry_item_icon</key>
+    <value><![CDATA[Icône]]></value>
+  </definition>
+  <definition>
+    <key>entry_item_text</key>
+    <value><![CDATA[Texte]]></value>
+  </definition>
+  <definition>
+    <key>entry_item_url</key>
+    <value><![CDATA[Lien]]></value>
+  </definition>
+  <definition>
+    <key>entry_parent_id</key>
+    <value><![CDATA[Mère]]></value>
+  </definition>
+  <definition>
+    <key>entry_sort_order</key>
+    <value><![CDATA[Ordre de tri]]></value>
+  </definition>
+  <definition>
+    <key>entry_link_category</key>
+    <value><![CDATA[Lien vers Catégorie]]></value>
+  </definition>
+  <definition>
+    <key>entry_link_page</key>
+    <value><![CDATA[Lien vers la page]]></value>
+  </definition>
+  <definition>
+    <key>text_link</key>
+    <value><![CDATA[Lien]]></value>
+  </definition>
+  <definition>
+    <key>text_select_parent_id</key>
+    <value><![CDATA[- Sélectionnez Id Parent -]]></value>
+  </definition>
+  <definition>
+    <key>error_empty</key>
+    <value><![CDATA[Le champ ne peut être vide!]]></value>
+  </definition>
+  <definition>
+    <key>error_non_unique</key>
+    <value><![CDATA[Point ID n&#39;est pas unique!]]></value>
+  </definition>
+</definitions>

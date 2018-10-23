@@ -1,0 +1,50 @@
+body, html{
+	background-image:url(../img/back2.jpg);
+	background-attachment:fixed;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+.navli{
+	background:#6495ed;
+	color:FFF;
+	padding:5px;
+	border-bottom:#CCC 1px solid;
+	border-radius:10px;
+	box-shadow: 2px 2px 2px #191970;
+}
+.navli a{
+	color:#FFF;
+	display:block;
+}
+.bigTag{
+	padding:5px;
+	font-weight:bold;
+}
+header{
+	height:150px;
+}
+.white{
+	background:#FFF;
+	padding:10px;
+}
+.e-form input[type='text'],.e-form input[type='password'],.e-form input[type='email']{
+    display: block;
+    width: 85%;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    font: 400 10px 'Open Sans',sans-serif;
+    border: 1px solid #eeeeee;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+.smallSpace{
+	height:5px;
+}
+.space{
+	height:10px;
+}
+.boxed{
+	border-radius:20px;
+	border:#666 1px solid;
+	padding:10px;
+}

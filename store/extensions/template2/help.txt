@@ -1,0 +1,20 @@
+<center><b>Template 2 Configurations Manual</b></center>
+<p>
+This template consists of 3 extensions that needs to be enabled to make this template work completely
+<br>
+1. template2 - Main template extension. 
+<br>
+2. slideshow2 - Banner slide show for the main page. 
+<br>
+3. product_slider - Product slider modules
+</p>
+<p>
+PLEASE NOTE: you can only manage this template if template extension is ENABLED (status ON)
+<br>
+To show this template in the storefront please enable template extension and go to System -> Settings -> Store. 
+<br>
+Choose store you want to edit and update template option.
+</p>
+<p>
+To get to storefront setting section quickly, press "Select Template" button in template2 extension edit page and it will redirect you to settings section
+</p>

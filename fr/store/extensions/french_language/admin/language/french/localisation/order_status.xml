@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Les statuts des commandes]]></value>
+  </definition>
+  <definition>
+    <key>text_status</key>
+    <value><![CDATA[Suivi de commande]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[Succès: Vous avez modifié les statuts des commandes!]]></value>
+  </definition>
+  <definition>
+    <key>column_name</key>
+    <value><![CDATA[Nom Statut de la commande]]></value>
+  </definition>
+  <definition>
+    <key>column_action</key>
+    <value><![CDATA[Action]]></value>
+  </definition>
+  <definition>
+    <key>entry_name</key>
+    <value><![CDATA[Nom Statut de la commande:]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[Attention: Vous n&#39;avez pas la permission de modifier statues ordre!]]></value>
+  </definition>
+  <definition>
+    <key>error_name</key>
+    <value><![CDATA[Nom Statut de la commande doit être comprise entre 2 et 32 ​​caractères!]]></value>
+  </definition>
+  <definition>
+    <key>error_default</key>
+    <value><![CDATA[Avertissement: Ce statut de la commande ne peut pas être supprimé car il est actuellement affecté en tant que statut de la commande par défaut magasin!]]></value>
+  </definition>
+  <definition>
+    <key>error_download</key>
+    <value><![CDATA[Avertissement: Ce statut de la commande ne peut pas être supprimé car il est actuellement affecté que le statut de téléchargement par défaut!]]></value>
+  </definition>
+  <definition>
+    <key>error_store</key>
+    <value><![CDATA[Avertissement: Ce statut de la commande ne peut pas être supprimé car il est actuellement assigné à %s magasins!]]></value>
+  </definition>
+  <definition>
+    <key>error_order</key>
+    <value><![CDATA[Avertissement: Ce statut de la commande ne peut pas être supprimé car il est actuellement assigné à %s commandes!]]></value>
+  </definition>
+</definitions>

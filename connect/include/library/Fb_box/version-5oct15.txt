@@ -1,0 +1,2 @@
+19 Sept:
+- Added specific requested fields in the Fb images class

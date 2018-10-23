@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<extension>
+	<id>product_slider</id>
+	<version>1.0.0</version>
+	<cartversions>
+		<item>1.0</item>
+		<item>1.1</item>
+	</cartversions>
+	<priority>30</priority>
+	<type>extension</type>
+	<category>blocks</category>
+	<settings>
+		<item id="product_slider_status">
+			<type>checkbox</type>
+			<default_value>0</default_value>
+		</item>
+		<item id="product_slider_type">
+            <type>selectbox</type>
+            <default_value>bestsellers</default_value>
+            <variants>
+                <item>bestsellers</item>
+                <item>latest</item>
+                <item>specials</item>
+                <item>featured</item>
+            </variants>
+        </item>
+	</settings>
+	<note>true</note>
+	<install>
+		<trigger>install.php</trigger>
+	</install>
+	<uninstall>
+		<trigger>uninstall.php</trigger>
+	</uninstall>
+</extension>

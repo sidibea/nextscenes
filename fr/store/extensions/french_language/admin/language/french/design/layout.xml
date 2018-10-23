@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Mise en page et gestionnaire de blocs]]></value>
+  </definition>
+  <definition>
+    <key>text_select_template</key>
+    <value><![CDATA[Sélectionnez le modèle:]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[Succès: Vous avez modifié la disposition des blocs &amp;!]]></value>
+  </definition>
+</definitions>

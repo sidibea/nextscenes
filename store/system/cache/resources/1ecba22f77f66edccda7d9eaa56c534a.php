@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:6:{s:7:"type_id";s:1:"2";s:9:"type_name";s:5:"audio";s:17:"default_directory";s:6:"audio/";s:12:"default_icon";s:23:"icon_resource_audio.png";s:10:"file_types";s:15:"/.+(mp3|wav)$/i";s:11:"access_type";s:1:"0";}

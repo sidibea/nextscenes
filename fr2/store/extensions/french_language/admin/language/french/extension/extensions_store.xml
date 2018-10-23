@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Magasin extensions]]></value>
+  </definition>
+  <definition>
+    <key>text_install</key>
+    <value><![CDATA[Installer]]></value>
+  </definition>
+  <definition>
+    <key>text_uninstall</key>
+    <value><![CDATA[Désinstaller]]></value>
+  </definition>
+  <definition>
+    <key>text_uninstall_delete</key>
+    <value><![CDATA[Désinstaller / Supprimer]]></value>
+  </definition>
+  <definition>
+    <key>text_uninstall_confirm</key>
+    <value><![CDATA[S&#39;il vous plaît confirmer que vous souhaitez désinstaller l&#39;extension [%% d&#39;extension]. Tous les paramètres d&#39;extension et des données connexes pourraient être supprimés et perdus.]]></value>
+  </definition>
+  <definition>
+    <key>text_delete</key>
+    <value><![CDATA[Effacer]]></value>
+  </definition>
+  <definition>
+    <key>text_enlarge</key>
+    <value><![CDATA[Cliquez sur l&#39;image pour l&#39;agrandir]]></value>
+  </definition>
+  <definition>
+    <key>text_activate</key>
+    <value><![CDATA[Activer]]></value>
+  </definition>
+  <definition>
+    <key>text_deactivate</key>
+    <value><![CDATA[Désactiver]]></value>
+  </definition>
+  <definition>
+    <key>text_left</key>
+    <value><![CDATA[Gauche]]></value>
+  </definition>
+  <definition>
+    <key>text_right</key>
+    <value><![CDATA[Droit]]></value>
+  </definition>
+  <definition>
+    <key>text_date_added</key>
+    <value><![CDATA[Ajoutée le]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[Attention: Vous n&#39;avez pas la permission de modifier les extensions!]]></value>
+  </definition>
+  <definition>
+    <key>error_required_field</key>
+    <value><![CDATA[Avertissement: S&#39;il vous plaît remplir les champs obligatoires!]]></value>
+  </definition>
+  <definition>
+    <key>error_payment_uninstall</key>
+    <value><![CDATA[Attention: Désactiver l&#39;extension avant de désinstallation!]]></value>
+  </definition>
+  <definition>
+    <key>error_uninstall</key>
+    <value><![CDATA[Attention: Désinstaller l&#39;extension avant suppression!]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[Succès: Vous avez modifié les paramètres d&#39;extension!]]></value>
+  </definition>
+  <definition>
+    <key>text_extensions_store</key>
+    <value><![CDATA[Magasin extensions]]></value>
+  </definition>
+  <definition>
+    <key>text_required</key>
+    <value><![CDATA[Requis]]></value>
+  </definition>
+  <definition>
+    <key>text_optional</key>
+    <value><![CDATA[En option]]></value>
+  </definition>
+  <definition>
+    <key>text_add_new</key>
+    <value><![CDATA[Ajouter Extension New]]></value>
+  </definition>
+  <definition>
+    <key>error_connect</key>
+    <value><![CDATA[Désolé, votre Abantecart peut pas se connecter avec un magasin d&#39;extension. S&#39;il vous plaît voir Système-&gt; erreur journaux pour plus de détails.]]></value>
+  </definition>
+</definitions>

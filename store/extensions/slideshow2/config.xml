@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<extension>
+	<id>slideshow2</id>
+	<version>1.0.0</version>
+	<cartversions>
+		<item>1.0</item>
+		<item>1.1</item>
+	</cartversions>
+	<priority>20</priority>
+	<type>extension</type>
+	<category>blocks</category>
+	<settings>
+		<item id="slideshow2_status">
+			<type>checkbox</type>
+			<default_value>0</default_value>
+		</item>
+		<item id="slideshow2_x">
+			<type>input</type>
+			<default_value>544</default_value>
+		</item>
+		<item id="slideshow2_y">
+			<type>input</type>
+			<default_value>305</default_value>
+		</item>
+		<item id="slideshow2_speed">
+			<type>input</type>
+			<default_value>2000</default_value>
+		</item>
+		<item id="slideshow2_timeout">
+			<type>input</type>
+			<default_value>2000</default_value>
+		</item>
+	</settings>
+	<additional_settings><![CDATA[blocks/slideshow2]]></additional_settings>
+	<note>true</note>
+	<install>
+		<trigger>install.php</trigger>
+	</install>
+	<uninstall>
+		<trigger>uninstall.php</trigger>
+	</uninstall>
+</extension>

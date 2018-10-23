@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Paramètres]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[Succès: Vous avez modifié les paramètres!]]></value>
+  </definition>
+  <definition>
+    <key>text_image_manager</key>
+    <value><![CDATA[Image Manager]]></value>
+  </definition>
+  <definition>
+    <key>text_default</key>
+    <value><![CDATA[Par défaut]]></value>
+  </definition>
+  <definition>
+    <key>text_edit_store</key>
+    <value><![CDATA[Modifier magasin:]]></value>
+  </definition>
+  <definition>
+    <key>entry_name</key>
+    <value><![CDATA[Nom du magasin:]]></value>
+  </definition>
+  <definition>
+    <key>entry_url</key>
+    <value><![CDATA[URL de magasin: <br /> <span class="help">Inclure l&#39;URL complète de votre magasin. Assurez-vous d&#39;ajouter &#39;/&#39; à la fin. Exemple: http://www.yourdomain.com/path/ <br /><br /> Ne pas utiliser les répertoires de créer un nouveau magasin. Vous devez toujours indiquer un autre domaine ou sous domaine à votre hébergement.</span>]]></value>
+  </definition>
+  <definition>
+    <key>entry_ssl</key>
+    <value><![CDATA[Utiliser SSL: <br /> <span class="help">Pour utiliser SSL chèque avec votre hôte si un certificat SSL est installé.</span>]]></value>
+  </definition>
+  <definition>
+    <key>entry_title</key>
+    <value><![CDATA[Titre:]]></value>
+  </definition>
+  <definition>
+    <key>entry_meta_description</key>
+    <value><![CDATA[Description de la balise Meta:]]></value>
+  </definition>
+  <definition>
+    <key>entry_template</key>
+    <value><![CDATA[Modèle:]]></value>
+  </definition>
+  <definition>
+    <key>entry_description</key>
+    <value><![CDATA[Message de bienvenue:]]></value>
+  </definition>
+  <definition>
+    <key>entry_country</key>
+    <value><![CDATA[Pays:]]></value>
+  </definition>
+  <definition>
+    <key>entry_zone</key>
+    <value><![CDATA[Région / Etat:]]></value>
+  </definition>
+  <definition>
+    <key>entry_language</key>
+    <value><![CDATA[Langue:]]></value>
+  </definition>
+  <definition>
+    <key>entry_status</key>
+    <value><![CDATA[Statut magasin <br /> <span class="help">Stocker l&#39;état dans une vitrine. État OFF dirigera par défaut magasin. Utilisez le réglage du mode de maintenance de régler temporairement message de maintenance magasin</span> </span]]></value>
+  </definition>
+  <definition>
+    <key>entry_alias</key>
+    <value><![CDATA[Alias ​​Nom <br /> <span class="help">Stockez Nom Alias. Si laissé vide, sera basé sur le nom raccourci</span> </span]]></value>
+  </definition>
+  <definition>
+    <key>entry_status</key>
+    <value><![CDATA[Statut magasin <br /> <span class="help">Stocker l&#39;état dans une vitrine. État OFF dirigera par défaut magasin. Utilisez le réglage du mode de maintenance de régler temporairement message de maintenance magasin</span> </span]]></value>
+  </definition>
+  <definition>
+    <key>button_add_store</key>
+    <value><![CDATA[Créer un nouveau magasin]]></value>
+  </definition>
+  <definition>
+    <key>button_delete_store</key>
+    <value><![CDATA[Supprimer magasin]]></value>
+  </definition>
+  <definition>
+    <key>button_edit_settings</key>
+    <value><![CDATA[Modifier les paramètres]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[Attention: Vous n&#39;avez pas la permission de modifier les magasins!]]></value>
+  </definition>
+  <definition>
+    <key>error_name</key>
+    <value><![CDATA[Nom du magasin doit être comprise entre 3 et 32 ​​caractères!]]></value>
+  </definition>
+  <definition>
+    <key>error_url</key>
+    <value><![CDATA[URL magasin nécessaire!]]></value>
+  </definition>
+  <definition>
+    <key>error_title</key>
+    <value><![CDATA[Titre doit être comprise entre 3 et 32 ​​caractères!]]></value>
+  </definition>
+  <definition>
+    <key>error_image_thumb</key>
+    <value><![CDATA[Produit Dimensions de l&#39;image de taille de pouce nécessaire!]]></value>
+  </definition>
+  <definition>
+    <key>error_image_popup</key>
+    <value><![CDATA[Dimensions du produit Taille de l&#39;image Popup nécessaire!]]></value>
+  </definition>
+  <definition>
+    <key>error_image_category</key>
+    <value><![CDATA[Liste des catégories de dimensions Taille nécessaire!]]></value>
+  </definition>
+  <definition>
+    <key>error_image_product</key>
+    <value><![CDATA[Dimensions du produit Taille Liste requis!]]></value>
+  </definition>
+  <definition>
+    <key>error_image_additional</key>
+    <value><![CDATA[D&#39;autres dimensions du produit Taille de l&#39;image requise!]]></value>
+  </definition>
+  <definition>
+    <key>error_image_related</key>
+    <value><![CDATA[Connexes Dimensions du produit Taille de l&#39;image requise!]]></value>
+  </definition>
+  <definition>
+    <key>error_image_cart</key>
+    <value><![CDATA[Dimensions Panier Taille de l&#39;image requise!]]></value>
+  </definition>
+  <definition>
+    <key>error_image_grid</key>
+    <value><![CDATA[Dimensions de la grille Taille de l&#39;image requise!]]></value>
+  </definition>
+  <definition>
+    <key>error_store</key>
+    <value><![CDATA[Avertissement: Ce magasin ne peut pas être supprimé car il est actuellement assigné à %s commandes!]]></value>
+  </definition>
+  <definition>
+    <key>error_required_data</key>
+    <value><![CDATA[Données requises n&#39;a pas été entré. Vérifier les erreurs sur le terrain!]]></value>
+  </definition>
+  <definition>
+    <key>error_limit</key>
+    <value><![CDATA[Limiter nécessaire!]]></value>
+  </definition>
+  <definition>
+    <key>entry_clone_store</key>
+    <value><![CDATA[Paramètres de copie: <br/> <span class="help">Vous pouvez sélectionner une copie de tous les réglages de certains magasins existants</span>]]></value>
+  </definition>
+</definitions>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Défaut Commander]]></value>
+  </definition>
+  <definition>
+    <key>text_basket</key>
+    <value><![CDATA[Panier]]></value>
+  </definition>
+  <definition>
+    <key>text_shipping</key>
+    <value><![CDATA[Transport maritime]]></value>
+  </definition>
+  <definition>
+    <key>text_payment</key>
+    <value><![CDATA[Paiement]]></value>
+  </definition>
+  <definition>
+    <key>text_failure</key>
+    <value><![CDATA[Échec]]></value>
+  </definition>
+  <definition>
+    <key>text_message</key>
+    <value><![CDATA[<p> Il y avait un problème tout en essayant de traiter votre commande! </p><p> Si le problème persiste s&#39;il vous plaît essayez de sélectionner un autre mode de paiement ou vous pouvez contacter le propriétaire du magasin par <a href="%s">cliquant ici</a> .]]></value>
+  </definition>
+</definitions>

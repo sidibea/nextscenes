@@ -1,0 +1,84 @@
+body, html{
+	background-image:url(../img/back.jpg);
+	background-attachment:fixed;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+.e-form input[type='text'],.e-form input[type='password'],.e-form input[type='email'],.e-form textarea{
+    display: block;
+    width: 85%;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    font: 400 10px 'Open Sans',sans-serif;
+    border: 1px solid #eeeeee;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+.e-form textarea{
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.e-form input[type='text']:focus,.e-form textarea:focus{
+    outline:none;
+}
+
+.e-form input::-webkit-input-placeholder{
+    color:#FFF;
+}
+
+.e-form input::-moz-placeholder{
+    color:#FFF;
+}
+
+.e-form button[type='submit']{
+    font: 700 12px 'Open Sans',sans-serif;
+    padding-left: 20px;
+    margin-top: 25px;
+	background-color:#999;
+}
+
+.e-form button[type='submit'] span.fa{
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.formLogin{
+	width:350px;
+	margin:auto;
+	padding:15% 10px 10px 10px;
+}
+.loginInfo{
+	background:#666;
+	color:#FFF;
+	font-weight:bold;
+	text-align:center;
+	font-size:18px;
+	font-family:"Courier New", Courier, monospace;
+	padding:4px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+.intExtra{
+	border-bottom:#666 2px solid;
+	border-left:#666 2px solid;
+	border-right:#666 2px solid;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+.into{
+	padding:10px;
+}
+input[type=email]{
+	background-color:transparent;
+	color:#000;
+	font-weight:bold;
+}
+input[type=password]{
+	background-color:transparent;
+	color:#000;
+	font-weight:bold;
+}

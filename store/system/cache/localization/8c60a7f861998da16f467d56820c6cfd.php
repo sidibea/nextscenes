@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:1:{s:10:"text_title";s:141:"Master Card, Visa and Verve (Processed securely by Paystack)<br/><img src="extensions/paystack/image/paystack.png" alt="Pay with Paystack" />";}

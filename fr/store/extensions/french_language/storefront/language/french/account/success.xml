@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Votre compte a été créé!]]></value>
+  </definition>
+  <definition>
+    <key>text_message</key>
+    <value><![CDATA[<p> Félicitations! Votre nouveau compte a été créé avec succès! </p><p> Vous pouvez maintenant profiter de privilèges membres à améliorer votre expérience de magasinage en ligne avec nous. </p><p> Si vous avez des questions concernant le fonctionnement de cette boutique en ligne, s&#39;il vous plaît envoyer un courriel au propriétaire du magasin. </p><p> Une confirmation a été envoyé à l&#39;adresse courriel fournie. Si vous ne l&#39;avez pas reçu dans l&#39;heure, s&#39;il vous plaît <a href="%s">contactez-nous</a> . </p>]]></value>
+  </definition>
+  <definition>
+    <key>text_approval</key>
+    <value><![CDATA[<p> Merci de vous inscrire avec %s ! </p><p> Vous serez avisé par courriel dès que votre compte a été activé par le propriétaire du magasin. </p><p> Si vous avez des questions concernant le fonctionnement de cette boutique en ligne, s&#39;il vous plaît <a href="%s">contacter le propriétaire du magasin</a> . </p>]]></value>
+  </definition>
+  <definition>
+    <key>text_account</key>
+    <value><![CDATA[Compte]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[Succès]]></value>
+  </definition>
+</definitions>

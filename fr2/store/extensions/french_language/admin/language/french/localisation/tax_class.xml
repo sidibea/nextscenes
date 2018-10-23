@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Classes d&#39;impôt]]></value>
+  </definition>
+  <definition>
+    <key>text_class</key>
+    <value><![CDATA[Classe de TVA]]></value>
+  </definition>
+  <definition>
+    <key>text_rate</key>
+    <value><![CDATA[Taux d&#39;imposition]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[Succès: Vous avez modifié les classes d&#39;impôt!]]></value>
+  </definition>
+  <definition>
+    <key>column_title</key>
+    <value><![CDATA[Titre de la classe d&#39;impôt]]></value>
+  </definition>
+  <definition>
+    <key>column_action</key>
+    <value><![CDATA[Action]]></value>
+  </definition>
+  <definition>
+    <key>tab_details</key>
+    <value><![CDATA[Détails]]></value>
+  </definition>
+  <definition>
+    <key>tab_rates</key>
+    <value><![CDATA[Tarifs]]></value>
+  </definition>
+  <definition>
+    <key>entry_title</key>
+    <value><![CDATA[Titre de la classe d&#39;impôt:]]></value>
+  </definition>
+  <definition>
+    <key>entry_description</key>
+    <value><![CDATA[Description:]]></value>
+  </definition>
+  <definition>
+    <key>entry_location</key>
+    <value><![CDATA[Localisation:]]></value>
+  </definition>
+  <definition>
+    <key>entry_zone</key>
+    <value><![CDATA[Lieu de la zone:]]></value>
+  </definition>
+  <definition>
+    <key>entry_priority</key>
+    <value><![CDATA[Priorité:]]></value>
+  </definition>
+  <definition>
+    <key>entry_rate</key>
+    <value><![CDATA[Taux d&#39;imposition:]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[Attention: Vous n&#39;avez pas la permission de modifier les classes d&#39;impôt!]]></value>
+  </definition>
+  <definition>
+    <key>error_tax_title</key>
+    <value><![CDATA[Titre de la classe d&#39;impôt doit être comprise entre 2 et 32 ​​caractères!]]></value>
+  </definition>
+  <definition>
+    <key>error_rate</key>
+    <value><![CDATA[Taux d&#39;imposition nécessaire!]]></value>
+  </definition>
+  <definition>
+    <key>error_product</key>
+    <value><![CDATA[Avertissement: Cette classe d&#39;impôt ne peut pas être supprimé car il est actuellement assigné à %s produits!]]></value>
+  </definition>
+  <definition>
+    <key>text_tax_all_zones</key>
+    <value><![CDATA[toutes les zones de localisation]]></value>
+  </definition>
+</definitions>

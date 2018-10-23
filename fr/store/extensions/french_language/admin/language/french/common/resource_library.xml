@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Bibliothèque de ressources]]></value>
+  </definition>
+  <definition>
+    <key>view_title</key>
+    <value><![CDATA[Voir Ressources objets]]></value>
+  </definition>
+  <definition>
+    <key>confirm_title</key>
+    <value><![CDATA[Confirmez ressource (s) delete]]></value>
+  </definition>
+  <definition>
+    <key>text_confirm</key>
+    <value><![CDATA[Etes-vous sûr de vouloir supprimer la ressource (s)?]]></value>
+  </definition>
+  <definition>
+    <key>text_cant_delete_title</key>
+    <value><![CDATA[Ressource (s) delete]]></value>
+  </definition>
+  <definition>
+    <key>text_cant_delete</key>
+    <value><![CDATA[Cant supprimer la ressource (s), car une ou plusieurs ressources est liée à s&#39;opposer]]></value>
+  </definition>
+  <definition>
+    <key>text_edit_resource</key>
+    <value><![CDATA[Modifier des ressources]]></value>
+  </definition>
+  <definition>
+    <key>text_resource_details</key>
+    <value><![CDATA[Détails des ressources]]></value>
+  </definition>
+  <definition>
+    <key>text_mapped_to</key>
+    <value><![CDATA[Mappé]]></value>
+  </definition>
+  <definition>
+    <key>text_products</key>
+    <value><![CDATA[Produits]]></value>
+  </definition>
+  <definition>
+    <key>text_add_file</key>
+    <value><![CDATA[Ajouter un fichier de ressources]]></value>
+  </definition>
+  <definition>
+    <key>text_add_code</key>
+    <value><![CDATA[Ajout d&#39;un code des ressources]]></value>
+  </definition>
+  <definition>
+    <key>text_add_files</key>
+    <value><![CDATA[Ajouter des fichiers ...]]></value>
+  </definition>
+  <definition>
+    <key>text_upload_files</key>
+    <value><![CDATA[Transférer des fichiers]]></value>
+  </definition>
+  <definition>
+    <key>text_drag</key>
+    <value><![CDATA[ou les faire glisser ici pour commencer télécharger]]></value>
+  </definition>
+  <definition>
+    <key>text_start_upload</key>
+    <value><![CDATA[Démarrer télécharger]]></value>
+  </definition>
+  <definition>
+    <key>text_cancel_upload</key>
+    <value><![CDATA[Annuler télécharger]]></value>
+  </definition>
+  <definition>
+    <key>text_start</key>
+    <value><![CDATA[Commencer]]></value>
+  </definition>
+  <definition>
+    <key>text_cancel</key>
+    <value><![CDATA[Annuler]]></value>
+  </definition>
+  <definition>
+    <key>text_save_sort_order</key>
+    <value><![CDATA[Enregistrer l&#39;ordre de tri]]></value>
+  </definition>
+  <definition>
+    <key>text_error</key>
+    <value><![CDATA[Erreur]]></value>
+  </definition>
+  <definition>
+    <key>text_delete_files</key>
+    <value><![CDATA[Supprimer les fichiers]]></value>
+  </definition>
+  <definition>
+    <key>text_search</key>
+    <value><![CDATA[rechercher]]></value>
+  </definition>
+  <definition>
+    <key>text_type</key>
+    <value><![CDATA[Type]]></value>
+  </definition>
+  <definition>
+    <key>text_language</key>
+    <value><![CDATA[Langue]]></value>
+  </definition>
+  <definition>
+    <key>text_resource_code</key>
+    <value><![CDATA[Code de ressources]]></value>
+  </definition>
+  <definition>
+    <key>text_name</key>
+    <value><![CDATA[Nom]]></value>
+  </definition>
+  <definition>
+    <key>text_title</key>
+    <value><![CDATA[Titre]]></value>
+  </definition>
+  <definition>
+    <key>text_description</key>
+    <value><![CDATA[Description]]></value>
+  </definition>
+  <definition>
+    <key>text_uploaded</key>
+    <value><![CDATA[Succès: des ressources a été transféré!]]></value>
+  </definition>
+  <definition>
+    <key>text_add</key>
+    <value><![CDATA[Ajouter]]></value>
+  </definition>
+  <definition>
+    <key>text_edit</key>
+    <value><![CDATA[Éditer]]></value>
+  </definition>
+  <definition>
+    <key>text_map</key>
+    <value><![CDATA[Carte à l&#39;objet]]></value>
+  </definition>
+  <definition>
+    <key>text_unmap</key>
+    <value><![CDATA[Unmap de l&#39;objet]]></value>
+  </definition>
+  <definition>
+    <key>text_file_delete</key>
+    <value><![CDATA[Ressource a été supprimée!]]></value>
+  </definition>
+  <definition>
+    <key>text_delete</key>
+    <value><![CDATA[Succès: Votre ressource a été supprimée!]]></value>
+  </definition>
+  <definition>
+    <key>error_file_type</key>
+    <value><![CDATA[Attention: le type de fichier incorrect!]]></value>
+  </definition>
+  <definition>
+    <key>error_file_size</key>
+    <value><![CDATA[Attention: le fichier à grande ci-dessous s&#39;il vous plaît garder 300kb et pas plus de 1000px de hauteur ou de largeur!]]></value>
+  </definition>
+  <definition>
+    <key>error_maxFileSize</key>
+    <value><![CDATA[Le fichier est trop gros]]></value>
+  </definition>
+  <definition>
+    <key>error_minFileSize</key>
+    <value><![CDATA[Le fichier est trop petite]]></value>
+  </definition>
+  <definition>
+    <key>error_acceptFileTypes</key>
+    <value><![CDATA[Type de fichier non autorisé]]></value>
+  </definition>
+  <definition>
+    <key>error_maxNumberOfFiles</key>
+    <value><![CDATA[Le nombre maximum de fichiers dépassé]]></value>
+  </definition>
+  <definition>
+    <key>error_uploadedBytes</key>
+    <value><![CDATA[Octets téléchargés dépasse la taille du fichier]]></value>
+  </definition>
+  <definition>
+    <key>error_emptyResult</key>
+    <value><![CDATA[Fichier vide télécharger résultat. Peut-être le fichier est corrompu ou trop grand. La taille du fichier limitée à 16Mo. Si la taille du fichier est inférieure à la limite s&#39;il vous plaît vérifier les paramètres de PHP pour upload_max_filesize post_max_size &amp;]]></value>
+  </definition>
+  <definition>
+    <key>error_1</key>
+    <value><![CDATA[Fichier dépasse (directive php.ini) upload_max_filesize]]></value>
+  </definition>
+  <definition>
+    <key>error_2</key>
+    <value><![CDATA[Fichier dépasse MAX_FILE_SIZE (directive formulaire HTML)]]></value>
+  </definition>
+  <definition>
+    <key>error_3</key>
+    <value><![CDATA[Le fichier a été que partiellement téléchargé]]></value>
+  </definition>
+  <definition>
+    <key>error_4</key>
+    <value><![CDATA[Pas de fichier a été téléchargé]]></value>
+  </definition>
+  <definition>
+    <key>error_5</key>
+    <value><![CDATA[Manquant dans un dossier temporaire]]></value>
+  </definition>
+  <definition>
+    <key>error_6</key>
+    <value><![CDATA[Impossible d&#39;écrire le fichier sur le disque]]></value>
+  </definition>
+  <definition>
+    <key>error_7</key>
+    <value><![CDATA[File upload arrêté par extension]]></value>
+  </definition>
+  <definition>
+    <key>error_uploaded</key>
+    <value><![CDATA[Attention: Le fichier ne peut être transféré pour une raison inconnue!]]></value>
+  </definition>
+  <definition>
+    <key>error_no_type</key>
+    <value><![CDATA[S&#39;il vous plaît sélectionner le type de ressource]]></value>
+  </definition>
+  <definition>
+    <key>error_required_data</key>
+    <value><![CDATA[Données requises n&#39;a pas été saisi]]></value>
+  </definition>
+  <definition>
+    <key>error_not_added</key>
+    <value><![CDATA[Des ressources pas encore ajouté. S&#39;il vous plaît vérifiez le journal d&#39;erreur pour plus d&#39;infos]]></value>
+  </definition>
+  <definition>
+    <key>error_ajax</key>
+    <value><![CDATA[Chargez erreur de données. S&#39;il vous plaît vérifiez le journal d&#39;erreur pour plus d&#39;infos]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[Attention: Autorisation refusée!]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[Attention: Autorisation refusée!]]></value>
+  </definition>
+  <definition>
+    <key>button_delete</key>
+    <value><![CDATA[Effacer]]></value>
+  </definition>
+  <definition>
+    <key>button_add</key>
+    <value><![CDATA[Ajouter une ressource]]></value>
+  </definition>
+  <definition>
+    <key>button_done</key>
+    <value><![CDATA[Fait]]></value>
+  </definition>
+  <definition>
+    <key>button_select</key>
+    <value><![CDATA[Sélectionnez Ressources]]></value>
+  </definition>
+  <definition>
+    <key>text_with_selected</key>
+    <value><![CDATA[Avec sélectionné:]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[Ressources mis à jour avec succès]]></value>
+  </definition>
+  <definition>
+    <key>text_no_resources</key>
+    <value><![CDATA[Pas de ressources disponibles]]></value>
+  </definition>
+  <definition>
+    <key>text_preview</key>
+    <value><![CDATA[Aperçu / Télécharger]]></value>
+  </definition>
+  <definition>
+    <key>error_file size</key>
+    <value><![CDATA[Attention: La taille maximale du fichier à télécharger est %s . Vous pouvez augmenter cette valeur dans le fichier php.ini.]]></value>
+  </definition>
+  <definition>
+    <key>text_product_option_value</key>
+    <value><![CDATA[Options du produit de valeur]]></value>
+  </definition>
+  <definition>
+    <key>text_products</key>
+    <value><![CDATA[Produits]]></value>
+  </definition>
+  <definition>
+    <key>text_categories</key>
+    <value><![CDATA[Catégories]]></value>
+  </definition>
+  <definition>
+    <key>text_manufacturers</key>
+    <value><![CDATA[Fabricants]]></value>
+  </definition>
+</definitions>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Update Manager]]></value>
+  </definition>
+  <definition>
+    <key>text_checkupdates</key>
+    <value><![CDATA[les mises à jour]]></value>
+  </definition>
+  <definition>
+    <key>column_name</key>
+    <value><![CDATA[Nom d&#39;extension]]></value>
+  </definition>
+  <definition>
+    <key>column_type</key>
+    <value><![CDATA[Type]]></value>
+  </definition>
+  <definition>
+    <key>column_category</key>
+    <value><![CDATA[Catégorie]]></value>
+  </definition>
+  <definition>
+    <key>column_status</key>
+    <value><![CDATA[Statut]]></value>
+  </definition>
+  <definition>
+    <key>column_version</key>
+    <value><![CDATA[La version actuelle]]></value>
+  </definition>
+  <definition>
+    <key>column_new_version</key>
+    <value><![CDATA[Nouvelle version]]></value>
+  </definition>
+  <definition>
+    <key>column_action</key>
+    <value><![CDATA[Action]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[Succès: Extensions a été mis à jour avec succès!]]></value>
+  </definition>
+  <definition>
+    <key>text_update</key>
+    <value><![CDATA[Mettre à jour]]></value>
+  </definition>
+  <definition>
+    <key>entry_restore_exts</key>
+    <value><![CDATA[Restaurer l&#39;extension sauvegardé:]]></value>
+  </definition>
+  <definition>
+    <key>entry_update</key>
+    <value><![CDATA[Mises à jour:]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[Attention: Vous n&#39;avez pas la permission de modifier le répertoire:]]></value>
+  </definition>
+  <definition>
+    <key>warning_server</key>
+    <value><![CDATA[Server avec mises à jour est inaccessible.]]></value>
+  </definition>
+  <definition>
+    <key>text_notice_title</key>
+    <value><![CDATA[Mise à jour Avis pour EXTENSION%%]]></value>
+  </definition>
+  <definition>
+    <key>text_notice_text</key>
+    <value><![CDATA[«Nouvelle version de l&#39;extension&quot;%% d&#39;extension »est disponible. S&#39;il vous plaît, allez à% LINK% et le mettre à jour. &#39;]]></value>
+  </definition>
+  <definition>
+    <key>warning_updates</key>
+    <value><![CDATA[Impossible d&#39;obtenir des informations sur les mises à jour.]]></value>
+  </definition>
+  <definition>
+    <key>error_empty</key>
+    <value><![CDATA[Attention: Le fichier que vous avez téléchargé est vide!]]></value>
+  </definition>
+  <definition>
+    <key>error_exts_list</key>
+    <value><![CDATA[Attention: liste des extensions n&#39;est pas un tableau!]]></value>
+  </definition>
+  <definition>
+    <key>text_nothing_todo</key>
+    <value><![CDATA[Vos extensions de sont à jour. Rien à faire.]]></value>
+  </definition>
+</definitions>

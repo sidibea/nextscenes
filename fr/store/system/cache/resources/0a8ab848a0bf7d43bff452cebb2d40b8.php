@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:1:{i:0;a:3:{s:9:"object_id";s:3:"352";s:11:"object_name";s:8:"products";s:4:"name";s:34:"Sartre, Vichi et les intellectuels";}}

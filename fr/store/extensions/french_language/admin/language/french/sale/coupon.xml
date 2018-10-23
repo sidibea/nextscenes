@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Coupons]]></value>
+  </definition>
+  <definition>
+    <key>text_coupon</key>
+    <value><![CDATA[Coupon]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[Succès: Vous avez modifié les coupons!]]></value>
+  </definition>
+  <definition>
+    <key>text_percent</key>
+    <value><![CDATA[Pourcentage]]></value>
+  </definition>
+  <definition>
+    <key>text_amount</key>
+    <value><![CDATA[Montant fixe]]></value>
+  </definition>
+  <definition>
+    <key>column_name</key>
+    <value><![CDATA[Nom du coupon]]></value>
+  </definition>
+  <definition>
+    <key>column_code</key>
+    <value><![CDATA[Code]]></value>
+  </definition>
+  <definition>
+    <key>column_discount</key>
+    <value><![CDATA[Escompte]]></value>
+  </definition>
+  <definition>
+    <key>column_date_start</key>
+    <value><![CDATA[Date de début]]></value>
+  </definition>
+  <definition>
+    <key>column_date_end</key>
+    <value><![CDATA[Date de fin]]></value>
+  </definition>
+  <definition>
+    <key>column_status</key>
+    <value><![CDATA[Statut]]></value>
+  </definition>
+  <definition>
+    <key>column_action</key>
+    <value><![CDATA[Action]]></value>
+  </definition>
+  <definition>
+    <key>entry_name</key>
+    <value><![CDATA[Nom du coupon:]]></value>
+  </definition>
+  <definition>
+    <key>entry_description</key>
+    <value><![CDATA[Description du coupon:]]></value>
+  </definition>
+  <definition>
+    <key>entry_code</key>
+    <value><![CDATA[Code: <br /> <span class="help">Le code du client pénètre pour obtenir le rabais</span>]]></value>
+  </definition>
+  <definition>
+    <key>entry_type</key>
+    <value><![CDATA[Type: <br /> <span class="help">Pourcentage ou montant fixe</span>]]></value>
+  </definition>
+  <definition>
+    <key>entry_discount</key>
+    <value><![CDATA[Remise:]]></value>
+  </definition>
+  <definition>
+    <key>entry_logged</key>
+    <value><![CDATA[Se connecter à la clientèle: <br /> <span class="help">Le client doit être connecté pour utiliser le coupon.</span>]]></value>
+  </definition>
+  <definition>
+    <key>entry_shipping</key>
+    <value><![CDATA[Livraison gratuite:]]></value>
+  </definition>
+  <definition>
+    <key>entry_total</key>
+    <value><![CDATA[Montant total: <br /> <span class="help">Le montant total que doit atteindre avant le coupon est valable.</span>]]></value>
+  </definition>
+  <definition>
+    <key>entry_product</key>
+    <value><![CDATA[Produits sélectionnés:]]></value>
+  </definition>
+  <definition>
+    <key>entry_date_start</key>
+    <value><![CDATA[Date de début:]]></value>
+  </definition>
+  <definition>
+    <key>entry_date_end</key>
+    <value><![CDATA[Date de fin:]]></value>
+  </definition>
+  <definition>
+    <key>entry_uses_total</key>
+    <value><![CDATA[Utilise par coupon: <br /> <span class="help">Le nombre maximal de fois où le coupon peut être utilisé par n&#39;importe quel client. Laissez vide pour un nombre illimité</span>]]></value>
+  </definition>
+  <definition>
+    <key>entry_uses_customer</key>
+    <value><![CDATA[Utilise par client: <br /> <span class="help">Le nombre maximal de fois où le coupon peut être utilisé par un seul client. Laissez vide pour un nombre illimité</span>]]></value>
+  </definition>
+  <definition>
+    <key>entry_status</key>
+    <value><![CDATA[Statut:]]></value>
+  </definition>
+  <definition>
+    <key>entry_total_coupon_usage</key>
+    <value><![CDATA[Utilisation Coupon:]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[Attention: Vous n&#39;avez pas la permission de modifier des coupons!]]></value>
+  </definition>
+  <definition>
+    <key>error_name</key>
+    <value><![CDATA[Nom coupon doit être comprise entre 2 et 64 caractères!]]></value>
+  </definition>
+  <definition>
+    <key>error_description</key>
+    <value><![CDATA[Description du coupon doit être comprise entre 2 personnages!]]></value>
+  </definition>
+  <definition>
+    <key>error_code</key>
+    <value><![CDATA[Le code doit être entre 2 et 10 caractères!]]></value>
+  </definition>
+</definitions>

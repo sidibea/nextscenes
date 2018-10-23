@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:2:{s:13:"heading_title";s:16:"Template Manager";s:12:"text_success";s:36:"Succès: Vous avez modifié gabarit!";}

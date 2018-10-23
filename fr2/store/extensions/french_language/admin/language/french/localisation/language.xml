@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Langues]]></value>
+  </definition>
+  <definition>
+    <key>text_language</key>
+    <value><![CDATA[Langue]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[Succès: Vous avez modifié les langues!]]></value>
+  </definition>
+  <definition>
+    <key>column_name</key>
+    <value><![CDATA[Nom de la langue]]></value>
+  </definition>
+  <definition>
+    <key>column_code</key>
+    <value><![CDATA[Code]]></value>
+  </definition>
+  <definition>
+    <key>column_sort_order</key>
+    <value><![CDATA[Ordre de tri]]></value>
+  </definition>
+  <definition>
+    <key>column_action</key>
+    <value><![CDATA[Action]]></value>
+  </definition>
+  <definition>
+    <key>entry_name</key>
+    <value><![CDATA[Nom de la langue:]]></value>
+  </definition>
+  <definition>
+    <key>entry_code</key>
+    <value><![CDATA[Code: <br /> <span class="help">Ne pas changer si ce n&#39;est votre langue par défaut.</span>]]></value>
+  </definition>
+  <definition>
+    <key>entry_locale</key>
+    <value><![CDATA[Locale:]]></value>
+  </definition>
+  <definition>
+    <key>entry_image</key>
+    <value><![CDATA[Image:]]></value>
+  </definition>
+  <definition>
+    <key>entry_directory</key>
+    <value><![CDATA[Annuaire:]]></value>
+  </definition>
+  <definition>
+    <key>entry_filename</key>
+    <value><![CDATA[Nom du fichier:]]></value>
+  </definition>
+  <definition>
+    <key>entry_status</key>
+    <value><![CDATA[Statut:]]></value>
+  </definition>
+  <definition>
+    <key>entry_sort_order</key>
+    <value><![CDATA[Ordre de tri:]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[Attention: Vous n&#39;avez pas la permission de modifier les langues!]]></value>
+  </definition>
+  <definition>
+    <key>error_name</key>
+    <value><![CDATA[Nom de la langue doit être comprise entre 2 et 32 ​​caractères!]]></value>
+  </definition>
+  <definition>
+    <key>error_code</key>
+    <value><![CDATA[Code de la langue doit être au moins 2 caractères!]]></value>
+  </definition>
+  <definition>
+    <key>error_locale</key>
+    <value><![CDATA[Locale nécessaire!]]></value>
+  </definition>
+  <definition>
+    <key>error_image</key>
+    <value><![CDATA[Nom du fichier image doit être comprise entre 2 et 64 caractères!]]></value>
+  </definition>
+  <definition>
+    <key>error_directory</key>
+    <value><![CDATA[Annuaire nécessaire!]]></value>
+  </definition>
+  <definition>
+    <key>error_filename</key>
+    <value><![CDATA[Nom du fichier doit être comprise entre 2 et 64 caractères!]]></value>
+  </definition>
+  <definition>
+    <key>error_default</key>
+    <value><![CDATA[Avertissement: Cette langue ne peut pas être supprimé car il est actuellement affecté en tant que langue par défaut de mémorisation!]]></value>
+  </definition>
+  <definition>
+    <key>error_admin</key>
+    <value><![CDATA[Avertissement: Cette langue ne peut être supprimé car il est actuellement affecté en tant que langue d&#39;administration!]]></value>
+  </definition>
+  <definition>
+    <key>error_store</key>
+    <value><![CDATA[Avertissement: Cette langue ne peut pas être supprimé car il est actuellement assigné à %s magasins!]]></value>
+  </definition>
+  <definition>
+    <key>error_order</key>
+    <value><![CDATA[Avertissement: Cette langue ne peut pas être supprimé car il est actuellement assigné à %s commandes!]]></value>
+  </definition>
+  <definition>
+    <key>language_edit_title</key>
+    <value><![CDATA[Modifier les détails de langue]]></value>
+  </definition>
+  <definition>
+    <key>load_language_title</key>
+    <value><![CDATA[Charger les données linguistiques manquantes]]></value>
+  </definition>
+  <definition>
+    <key>load_language_data_txt</key>
+    <value><![CDATA[Chargez les données manquantes à partir de la langue: ]]></value>
+  </definition>
+  <definition>
+    <key>button_load_language</key>
+    <value><![CDATA[Charger]]></value>
+  </definition>
+</definitions>

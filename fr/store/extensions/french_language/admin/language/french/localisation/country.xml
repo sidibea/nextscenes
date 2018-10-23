@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Pays]]></value>
+  </definition>
+  <definition>
+    <key>text_country</key>
+    <value><![CDATA[Pays]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[Succès: Vous avez modifié les pays!]]></value>
+  </definition>
+  <definition>
+    <key>column_name</key>
+    <value><![CDATA[Nom Pays]]></value>
+  </definition>
+  <definition>
+    <key>column_iso_code_2</key>
+    <value><![CDATA[Code ISO (2)]]></value>
+  </definition>
+  <definition>
+    <key>column_iso_code_3</key>
+    <value><![CDATA[Code ISO (3)]]></value>
+  </definition>
+  <definition>
+    <key>column_action</key>
+    <value><![CDATA[Action]]></value>
+  </definition>
+  <definition>
+    <key>column_status</key>
+    <value><![CDATA[Statut]]></value>
+  </definition>
+  <definition>
+    <key>entry_status</key>
+    <value><![CDATA[Statut Pays:]]></value>
+  </definition>
+  <definition>
+    <key>entry_name</key>
+    <value><![CDATA[Nom du pays:]]></value>
+  </definition>
+  <definition>
+    <key>entry_iso_code_2</key>
+    <value><![CDATA[Code ISO (2):]]></value>
+  </definition>
+  <definition>
+    <key>entry_iso_code_3</key>
+    <value><![CDATA[Code ISO (3):]]></value>
+  </definition>
+  <definition>
+    <key>entry_address_format</key>
+    <value><![CDATA[Format d&#39;adresse: <br /> <span class="help">Prénom =</span> {firstname} <span class="help"><br /> Nom de famille =</span> {lastname} <span class="help"><br /> Société =</span> {company} <span class="help"><br /> Adresse 1 =</span> {address_1} <span class="help"><br /> Adresse 2 =</span> {address_2} <span class="help"><br /> Ville =</span> {city} <span class="help"><br /> Code postal =</span> {postcode} <span class="help"><br /> Zone =</span> {zone} <span class="help"><br /> Zone Code =</span> {zone_code} <span class="help"><br /> Pays =</span> {country}]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[Attention: Vous n&#39;avez pas la permission de modifier les pays!]]></value>
+  </definition>
+  <definition>
+    <key>error_name</key>
+    <value><![CDATA[Nom Pays doit être comprise entre 2 et 128 caractères!]]></value>
+  </definition>
+  <definition>
+    <key>error_default</key>
+    <value><![CDATA[Avertissement: Ce pays ne peut pas être supprimé car il est actuellement affecté en tant que pays de stockage par défaut!]]></value>
+  </definition>
+  <definition>
+    <key>error_store</key>
+    <value><![CDATA[Avertissement: Ce pays ne peut pas être supprimé car il est actuellement assigné à %s magasins!]]></value>
+  </definition>
+  <definition>
+    <key>error_address</key>
+    <value><![CDATA[Avertissement: Ce pays ne peut pas être supprimé car il est actuellement assigné à %s répondre entrées du carnet d&#39;!]]></value>
+  </definition>
+  <definition>
+    <key>error_zone</key>
+    <value><![CDATA[Avertissement: Ce pays ne peut pas être supprimé car il est actuellement assigné à %s zones!]]></value>
+  </definition>
+  <definition>
+    <key>error_zone_to_location</key>
+    <value><![CDATA[Avertissement: Ce pays ne peut pas être supprimé car il est actuellement assigné à %s zones à destinations!]]></value>
+  </definition>
+</definitions>

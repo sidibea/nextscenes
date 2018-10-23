@@ -1,0 +1,103 @@
+/**********************************
+
+Name: cmxform Styles
+
+***********************************/
+form.cmxform {
+/*	width: 370px;
+	font-size: 1.0em;
+	color: #333;*/
+}
+
+form.cmxform legend {
+	padding-left: 0;
+}
+
+form.cmxform legend, form.cmxform label {
+	color: #333;
+}
+
+form.cmxform fieldset {
+	border: none;
+	border-top: 1px solid #C9DCA6;
+	background: url(../images/cmxform-fieldset.gif) left bottom repeat-x;
+	background-color: #F8FDEF;
+}
+
+form.cmxform fieldset fieldset {
+	background: none;
+}
+
+form.cmxform fieldset p, form.cmxform fieldset fieldset {
+	padding: 5px 10px 7px;
+	background: url(../images/cmxform-divider.gif) left bottom repeat-x;
+}
+
+form.cmxform label.error, label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: red;
+	font-style: italic
+}
+div.error { display: none; }
+input {	/*border: 2px solid black;*/
+width: 200px; /*Width of right column in pixels*/
+
+height: 15px;
+	border: 2px solid #cccccc;
+	padding: 5px;
+	font-weight:bold;
+
+ }
+input.checkbox { border: none }
+input.submit { height: 25px;}
+input.MAX_FILE_SIZE { border: none; height: 95px;}
+
+
+input:focus { border: 1px dotted black; }
+input.error { border: 1px dotted red; }
+form.cmxform .gray * { color: gray; }
+
+
+
+.info{
+ background:url("../images/fleche.jpeg") no-repeat 0px 1px; 	/*PERMET AFFICHAGE DES INFORMATIONS REMPLISSAGED DU FORMULAIRE AFFICHER VIA JQUERY*/
+  padding-left: 45px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  font-size:10px;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+label.error {
+  background:url("../images/unchecked3.gif") no-repeat 6px 2px; 	/*PERMET AFFICHAGE DE LIMAGE DE VALIDATION INCORRECT*/
+  padding-left: 23px;
+  padding-bottom: 10px;
+  padding-top: 2px;
+  font-weight: bold; 
+   color: #752900;
+  /* color: #EA5200; */
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:9px;
+}
+
+label.error.checked {
+  background:url("../images/checked3.gif")  no-repeat 6px 0px;	/*PERMET AFFICHAGE DE LIMAGE DE VALIDATION CORRECT*/
+  color: #FFFFFF;
+}
+
+/*
+ img { border: 1px solid #eee; }
+	img#refreshimg:hover {cursor:pointer; }
+  fieldset div#captchaimage { float: left; margin-right: 15px; }
+  fieldset input#captcha { width: 25%; border: 1px solid #ddd; padding: 2px; }
+  fieldset input#submit { display: block; margin: 2% 0% 0% 0%; }
+  #captcha.success {
+  	border: 1px solid #49c24f;
+	background: #bcffbf;
+  }
+  #captcha.error {
+  	border: 1px solid #c24949;
+	background: #ffbcbc ;
+  }
+*/

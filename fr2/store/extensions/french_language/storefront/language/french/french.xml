@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>code</key>
+    <value><![CDATA[fr]]></value>
+  </definition>
+  <definition>
+    <key>direction</key>
+    <value><![CDATA[ltr]]></value>
+  </definition>
+  <definition>
+    <key>date_format_short</key>
+    <value><![CDATA[d / m / Y]]></value>
+  </definition>
+  <definition>
+    <key>date_format_long</key>
+    <value><![CDATA[l dS exercice]]></value>
+  </definition>
+  <definition>
+    <key>time_format</key>
+    <value><![CDATA[h: i: s A]]></value>
+  </definition>
+  <definition>
+    <key>decimal_point</key>
+    <value><![CDATA[.]]></value>
+  </definition>
+  <definition>
+    <key>thousand_point</key>
+    <value><![CDATA[,]]></value>
+  </definition>
+  <definition>
+    <key>text_home</key>
+    <value><![CDATA[Maison]]></value>
+  </definition>
+  <definition>
+    <key>text_yes</key>
+    <value><![CDATA[Oui]]></value>
+  </definition>
+  <definition>
+    <key>text_no</key>
+    <value><![CDATA[Aucun]]></value>
+  </definition>
+  <definition>
+    <key>text_none</key>
+    <value><![CDATA[Aucune --- ---]]></value>
+  </definition>
+  <definition>
+    <key>text_select</key>
+    <value><![CDATA[--- S&#39;il vous plaît choisir ---]]></value>
+  </definition>
+  <definition>
+    <key>text_all_zones</key>
+    <value><![CDATA[Toutes les zones]]></value>
+  </definition>
+  <definition>
+    <key>text_pagination</key>
+    <value><![CDATA[Résultats {start} à {end} de {total} ( {pages} Pages)]]></value>
+  </definition>
+  <definition>
+    <key>text_per_page</key>
+    <value><![CDATA[Par page]]></value>
+  </definition>
+  <definition>
+    <key>text_separator</key>
+    <value><![CDATA[&gt;]]></value>
+  </definition>
+  <definition>
+    <key>button_continue</key>
+    <value><![CDATA[Continuer]]></value>
+  </definition>
+  <definition>
+    <key>button_back</key>
+    <value><![CDATA[Dos]]></value>
+  </definition>
+  <definition>
+    <key>button_add_to_cart</key>
+    <value><![CDATA[Ajouter au panier]]></value>
+  </definition>
+  <definition>
+    <key>button_add_address</key>
+    <value><![CDATA[Ajouter une adresse]]></value>
+  </definition>
+  <definition>
+    <key>button_new_address</key>
+    <value><![CDATA[Nouvelle adresse]]></value>
+  </definition>
+  <definition>
+    <key>button_change_address</key>
+    <value><![CDATA[Changer l&#39;adresse]]></value>
+  </definition>
+  <definition>
+    <key>button_edit</key>
+    <value><![CDATA[Éditer]]></value>
+  </definition>
+  <definition>
+    <key>button_delete</key>
+    <value><![CDATA[Effacer]]></value>
+  </definition>
+  <definition>
+    <key>button_reviews</key>
+    <value><![CDATA[Avis]]></value>
+  </definition>
+  <definition>
+    <key>button_write</key>
+    <value><![CDATA[Ecrire une critique]]></value>
+  </definition>
+  <definition>
+    <key>button_login</key>
+    <value><![CDATA[Login]]></value>
+  </definition>
+  <definition>
+    <key>button_update</key>
+    <value><![CDATA[Mettre à jour]]></value>
+  </definition>
+  <definition>
+    <key>button_wish</key>
+    <value><![CDATA[Souhaiter]]></value>
+  </definition>
+  <definition>
+    <key>button_print</key>
+    <value><![CDATA[Imprimer]]></value>
+  </definition>
+  <definition>
+    <key>button_shopping</key>
+    <value><![CDATA[Continuer les achats]]></value>
+  </definition>
+  <definition>
+    <key>button_checkout</key>
+    <value><![CDATA[Caisse]]></value>
+  </definition>
+  <definition>
+    <key>button_confirm</key>
+    <value><![CDATA[Confirmer la commande]]></value>
+  </definition>
+  <definition>
+    <key>button_view</key>
+    <value><![CDATA[Voir]]></value>
+  </definition>
+  <definition>
+    <key>button_search</key>
+    <value><![CDATA[Rechercher]]></value>
+  </definition>
+  <definition>
+    <key>button_go</key>
+    <value><![CDATA[Aller]]></value>
+  </definition>
+  <definition>
+    <key>button_coupon</key>
+    <value><![CDATA[Appliquer coupon]]></value>
+  </definition>
+  <definition>
+    <key>button_guest</key>
+    <value><![CDATA[Invité Commander]]></value>
+  </definition>
+  <definition>
+    <key>notice_out_of_stock_ttl</key>
+    <value><![CDATA[Out of stock pour une avis: %s]]></value>
+  </definition>
+  <definition>
+    <key>notice_out_of_stock_body</key>
+    <value><![CDATA[Produit &quot; %s &quot;A atteint comptage zéro ou négative pour le produit principal ou toutes les options. <br> En conséquence de réglage, produit autobloquantes ( %s ) A été automatiquement désactivé!]]></value>
+  </definition>
+</definitions>

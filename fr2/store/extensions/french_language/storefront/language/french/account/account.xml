@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Mon compte]]></value>
+  </definition>
+  <definition>
+    <key>text_account</key>
+    <value><![CDATA[Compte]]></value>
+  </definition>
+  <definition>
+    <key>text_my_account</key>
+    <value><![CDATA[Mon compte]]></value>
+  </definition>
+  <definition>
+    <key>text_my_orders</key>
+    <value><![CDATA[Mes commandes]]></value>
+  </definition>
+  <definition>
+    <key>text_my_newsletter</key>
+    <value><![CDATA[Bulletin]]></value>
+  </definition>
+  <definition>
+    <key>text_information</key>
+    <value><![CDATA[Modifier vos informations de compte]]></value>
+  </definition>
+  <definition>
+    <key>text_password</key>
+    <value><![CDATA[Changez votre mot de passe]]></value>
+  </definition>
+  <definition>
+    <key>text_address</key>
+    <value><![CDATA[Modifier vos entrées du carnet d&#39;adresses]]></value>
+  </definition>
+  <definition>
+    <key>text_history</key>
+    <value><![CDATA[Voir historique de vos commandes]]></value>
+  </definition>
+  <definition>
+    <key>text_download</key>
+    <value><![CDATA[Téléchargements]]></value>
+  </definition>
+  <definition>
+    <key>text_newsletter</key>
+    <value><![CDATA[S&#39;abonner / se désabonner à la newsletter]]></value>
+  </definition>
+</definitions>

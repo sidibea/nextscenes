@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Longueur Classess]]></value>
+  </definition>
+  <definition>
+    <key>text_class</key>
+    <value><![CDATA[Classe Longueur]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[Succès: Vous avez modifié les classes de longueur!]]></value>
+  </definition>
+  <definition>
+    <key>column_title</key>
+    <value><![CDATA[Titre Longueur]]></value>
+  </definition>
+  <definition>
+    <key>column_unit</key>
+    <value><![CDATA[Unité de longueur]]></value>
+  </definition>
+  <definition>
+    <key>column_value</key>
+    <value><![CDATA[Valeur]]></value>
+  </definition>
+  <definition>
+    <key>column_action</key>
+    <value><![CDATA[Action]]></value>
+  </definition>
+  <definition>
+    <key>entry_title</key>
+    <value><![CDATA[Titre Longueur:]]></value>
+  </definition>
+  <definition>
+    <key>entry_unit</key>
+    <value><![CDATA[Unité de longueur:]]></value>
+  </definition>
+  <definition>
+    <key>entry_value</key>
+    <value><![CDATA[Valeur: <br /> <span class="help">Réglez à 1,00000 si ce n&#39;est la longueur de votre défaut.</span>]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[Attention: Vous n&#39;avez pas la permission de modifier les classes de longueur!]]></value>
+  </definition>
+  <definition>
+    <key>error_title</key>
+    <value><![CDATA[Titre Longueur doit être comprise entre 2 et 32 ​​caractères!]]></value>
+  </definition>
+  <definition>
+    <key>error_unit</key>
+    <value><![CDATA[Unité de longueur doit être comprise entre 1 et 4 caractères!]]></value>
+  </definition>
+  <definition>
+    <key>error_default</key>
+    <value><![CDATA[Avertissement: Cette classe de longueur ne peut pas être supprimé car il est actuellement affecté en tant que classe de longueur par défaut magasin!]]></value>
+  </definition>
+  <definition>
+    <key>error_product</key>
+    <value><![CDATA[Avertissement: Cette classe de longueur ne peut pas être supprimé car il est actuellement assigné à %s produits!]]></value>
+  </definition>
+</definitions>

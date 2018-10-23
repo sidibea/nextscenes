@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Payant Commander faible]]></value>
+  </definition>
+  <definition>
+    <key>text_total</key>
+    <value><![CDATA[Total de la commande]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[Succès: Vous avez modifié total des frais d&#39;ordre inférieur!]]></value>
+  </definition>
+  <definition>
+    <key>entry_total</key>
+    <value><![CDATA[Total de la commande:]]></value>
+  </definition>
+  <definition>
+    <key>entry_fee</key>
+    <value><![CDATA[Frais:]]></value>
+  </definition>
+  <definition>
+    <key>entry_tax</key>
+    <value><![CDATA[Classe de TVA:]]></value>
+  </definition>
+  <definition>
+    <key>entry_status</key>
+    <value><![CDATA[Statut:]]></value>
+  </definition>
+  <definition>
+    <key>entry_sort_order</key>
+    <value><![CDATA[Ordre de tri:]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[Attention: Vous n&#39;avez pas la permission de modifier total des frais d&#39;ordre inférieur!]]></value>
+  </definition>
+</definitions>

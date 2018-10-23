@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:2:{s:13:"heading_title";s:22:"Connectez-vous Erreur!";s:10:"text_login";s:84:"Vous n&#39;êtes pas identifié Vous allez être redirigé vers la page de connexion";}

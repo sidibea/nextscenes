@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:2:{s:13:"heading_title";s:15:"Bienvenue à %s";s:11:"text_latest";s:17:"Derniers produits";}

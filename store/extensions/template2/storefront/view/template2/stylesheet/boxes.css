@@ -1,0 +1,210 @@
+/* ABANTE CART CSS*/
+#column_left .sep, #column_right .sep{
+    height: 10px;
+}
+
+.s_block a,
+.c_block a{ color: #f65202; text-decoration: underline; }
+.s_block a:hover,
+.c_block a:hover{ text-decoration: none; }
+.s_block a.btn_standard,
+.c_block a.btn_standard{ text-decoration: none; }
+
+/*********************************************/
+/* top block general styles */
+.t_block {
+	font:normal 11px Tahoma, Arial, Helvetica;
+	color:#2f5576;
+	float:left;
+}
+
+/* bottom block general styles */
+.b_block {
+}
+
+/* side block general styles */
+.s_block{
+}
+.s_block .block_tl{
+    background: url(../image/box_top_m_new.gif) repeat-x;
+}
+.s_block .block_tr{}
+.s_block .block_tc{
+    margin: 0 5px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    height: 38px;
+    text-transform: uppercase;
+    line-height: 38px;
+    white-space: nowrap;
+    padding-left: 12px;
+}
+.s_block .block_tc IMG{
+	display:none;
+}
+
+.s_block .block_cl{
+    padding:4px 5px;
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+	background:#f8f8f8;
+}
+.s_block .block_cr{}
+.s_block .block_cc{ background:#fff; padding:13px 24px; }
+
+.s_block .block_bl{
+    height:0px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.s_block .block_br{}
+.s_block .block_bc{}
+
+.s_block .block_cc ul {
+    margin: 0;
+	padding: 0;
+	list-style: inside url(../image/bullet_1.gif);
+}
+.s_block .block_cc ul li{
+    line-height: 25px;
+    background: url(../image/box_item_border.gif) 0 100% repeat-x;
+    padding-bottom: 5px;
+}
+.s_block .block_cc ul li:last-child{ background: none; }
+.s_block .block_cc ul li a{
+	font: normal 12px Arial, Tahoma, sans-serif;
+    color:#3f3f3f;
+}
+
+.s_block .block_cc ul li ul li{
+    line-height: 15px;
+    background: none;
+    padding-bottom: 2px;
+    margin-left:10px;
+}
+.s_block .block_cc ul li ul li a{
+	font-size:11px;
+}
+
+
+/* cart box styles */
+#cartbox_left {}
+#cartbox_right {}
+#cartbox_mid {}
+
+/* content block general styles */
+.c_block{
+}
+.c_block .block_tl{
+    background: url(../image/box_top_m_new.gif) repeat-x;
+}
+.c_block .block_tr{}
+.c_block .block_tc{
+    margin: 0 5px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    height: 38px;
+    text-transform: uppercase;
+    line-height: 38px;
+    white-space: nowrap;
+    padding-left: 12px;
+}
+.c_block .block_tc IMG{
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.c_block .block_cl{
+    padding:4px 5px;
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+	background:#f8f8f8;
+}
+.c_block .block_cr{}
+.c_block .block_cc{ background:#fff; padding:13px 24px; }
+
+.c_block .block_bl{
+    height:0px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.c_block .block_br{}
+.c_block .block_bc{}
+
+/*********************************************/
+.list{
+	overflow: hidden;
+    width: 100%;
+}
+.list .sep{
+    clear:left;
+	height:5px;
+}
+.list .list_item{
+    float: left;
+    width: 88px;
+    margin-left:14px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.list .list_item img { border: 1px solid #ebebeb; }
+.list .list_item .title { height:34px; overflow: hidden; }
+.list .list_item .title a{
+	font: bold 11px Arial, sans-serif;
+    color: #ff7e00;
+}
+.list .list_item .rating{
+    min-height: 15px;
+}
+.list .list_item .price-add{
+    font: bold 12px Arial, sans-serif;
+    color: #000;
+    margin: 10px 0;
+	height:30px;
+}
+.list .list_item .price-add .normal{
+    color: #5b656d;
+    text-decoration: line-through;
+}
+
+.middle .list_item { margin: 16px; }
+/*********************************************/
+.s_block .list_item{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.s_block .list_item .rightPane{
+    float: right;
+    width: 100px;
+    text-align: left;
+}
+.s_block .list_item .rightPane .rating{
+    min-height: 15px;
+}
+.s_block .list_item .rightPane .price-add{
+    color: #F65202;
+}
+.s_block .list_item .rightPane .price-add .normal{
+    color: #5b656d;
+    text-decoration: line-through;
+}
+/*********************************************/
+.price-add .buy,
+.price-add .info{
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    margin-left: 3px;
+    vertical-align: middle;
+}
+.price-add .info{
+}
+.price-add .buy{
+}
+
+a.added {
+	color: #6e6e6e;
+	text-decoration: none;
+}

@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:6:{s:7:"type_id";s:1:"3";s:9:"type_name";s:5:"video";s:17:"default_directory";s:6:"video/";s:12:"default_icon";s:23:"icon_resource_video.png";s:10:"file_types";s:23:"/.+(avi|mpg|mov|flv)$/i";s:11:"access_type";s:1:"0";}

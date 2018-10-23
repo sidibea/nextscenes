@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:1:{i:0;a:5:{s:9:"layout_id";s:2:"21";s:11:"layout_type";s:1:"1";s:11:"layout_name";s:11:"Home Layout";s:10:"date_added";s:19:"2017-05-30 10:32:02";s:13:"date_modified";s:19:"2017-05-30 10:32:02";}}

@@ -1,0 +1,209 @@
+/*
+*
+* Lemonade v1.1
+* Copyright 2013, Joey
+* lemonade.im
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*
+*/
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  /* Removes padding behavior on widths */
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Landscape mobile & down
+===============================*/
+@media (max-width: 480px) {
+	*, body, span, div, p, a, span.text, h3, .vbig, .big, .tiny, ._btn3, ._btn3x, ._t, .f5, .f8, .f9, .f10, .f11, .f12, .f14, .f16, .f18, .nav li a{
+		font-size: 16px;
+		line-height: 1.5;
+	}
+	.main_left,  .main_right, .main{
+		width: 100%;
+		float: none;
+	}
+	.c_footer .main{
+		width: 80%;
+	}
+	.oul li:nth-of-type(3) {
+		display: block;
+		width: 100%;
+		float: none;
+		clear: both;
+		text-align: left;
+	}
+	.c_tiptop{
+		text-align: center;
+	}
+	.c_tiptop ul:nth-of-type(1) {
+		display: block;
+		width: 100%;
+		float: none;
+	}
+	.c_tiptop ul:nth-of-type(1) li {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.c_tiptop ul:nth-of-type(2) {
+		float: none;
+		margin: 0 auto !important;
+		display: inline-block;
+	}
+	ul.nav span{
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	ul.nav span:nth-of-type(1) li:nth-of-type(1) {
+		display: block;
+		float: none;
+		width: 100%;
+		clear: both;
+		padding: 0.5em 1em;
+	}
+	ul.nav span:nth-last-of-type(1) {
+		display: block;
+		text-align: center;
+		padding: 0.5em 0;
+	}
+	.nav span:nth-child(2) a,  .nav span:nth-child(3) a,  .nav span:nth-child(4) a {
+		display: block;
+		padding: 0.5em;
+		border-top: thin solid #fafafa;
+	}
+	.mobile_menu{
+		width: 30px;
+		height: 30px;
+		display: block;
+		float: right;
+		position: relative;
+		background:url(social.png) no-repeat;
+		background:url(social.svg) no-repeat;
+		overflow-x: visible;
+		margin-top: 1em;
+		position: relative;
+		cursor: pointer;
+		transition: all 0.1s ease-in-out;
+		-moz-transition: all 0.1s ease-in-out;
+		-webkit-transition: all 0.1s ease-in-out;
+		-o-transition: all 0.1s ease-in-out;
+		outline: none;
+	}
+	.mobile_menu::before{
+		position: absolute;
+		right: 100%;
+		margin-right: 0.5em;
+		content: "Menu";
+		margin-top: 0.2em;
+		color: #2190D7;
+	}
+	.mobile_menu_open{
+		background-position: 0 -120px;
+	}
+	.mobile_menu_open:hover, .mobile_menu_open:focus{
+		background-position: -30px -120px;
+	}
+	.mobile_menu_close{
+		display: none;
+		background-position: 0 -150px;
+	}
+	.mobile_menu_close:hover, .mobile_menu_close:focus{
+		background-position: -30px -150px;
+	}
+	.mobile_menu_close::before{
+		content: "Minimize";
+	}
+	.mobile_menu_open{
+		display: block;
+	}
+	.main_left .pr20{
+		padding: 1em;
+	}
+	.main_right .tright {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 2em;
+	}
+	ul.nav span.mobile_menu_option{
+		display: none;
+	}
+	.c_screen, .c_screen_holder{
+		height: 300px;
+	}
+	.c_screen .c_box:nth-of-type(1), .c_box {
+		width: 100%;
+		height: 100%;
+	}
+	.c_box_title a, .c_box_desc {
+		display: inline-block;
+		margin: 0.5em 0;
+	}
+	.c_view {
+		width: 100%;
+	}
+	.c_post .img {
+		width: 60%;
+		margin: 0 auto;
+		margin-bottom: 1em;
+		float: none;
+	}
+	.c_screen_control_left, .c_screen_control{
+		display: none;
+	}
+	.c_screen_control_mobile, .c_screen_control_left_mobile{
+		display: block;
+	}
+	.writers_choice {
+		position: relative;
+	}
+	.writers_choice .t,  .writers_choice .tc {
+		display: block;
+		width: 100%;
+	}
+	.holdem h4 {
+		text-align: left;
+	}
+}
+
+/* Mobile to Tablet Portrait
+===============================*/
+@media (min-width: 480px) and (max-width: 800px) {
+	*, body, span, div, p, a, span.text, h3, .vbig, .big, .tiny, ._btn3, ._btn3x, ._t, .f5, .f8, .f9, .f10, .f11, .f12, .f14, .f16, .f18, .nav li a{
+		font-size: 14px;
+	}
+	.main {
+		width: 90%;
+	}
+	.c_spacer img {
+		width: 100%;
+	}
+	.c_box_bottom{
+		width: 100%;
+		padding: 1em 0.7em;
+	}
+	.contributor_comment .tc:nth-of-type(1) {
+		width: 130px;
+	}
+}
+
+/* Landscape Tablet to Desktop
+===============================*/
+@media (min-width: 800px) and (max-width: 1100px) {
+}
+.nop{
+	padding: 0;
+}
+.nom{
+	margin: 0;
+}

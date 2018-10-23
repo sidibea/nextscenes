@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:6:{s:7:"type_id";s:1:"5";s:9:"type_name";s:7:"archive";s:17:"default_directory";s:8:"archive/";s:12:"default_icon";s:25:"icon_resource_archive.png";s:10:"file_types";s:21:"/.+(zip|rar|gz|7z)$/i";s:11:"access_type";s:1:"1";}

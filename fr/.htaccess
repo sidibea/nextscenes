@@ -1,0 +1,36 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+#second condition and rule
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^read/(.*) reads.php?slug=$1 [QSA]
+
+#third condition and rule
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^view/(.*) views.php?slug=$1 [QSA]
+
+#fourth condition and rule
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^forums/(.*) forumed.php?slug=$1 [QSA]
+
+#fifth condition and rule
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^histoires/(.*) histoires.php?slug=$1 [QSA]
+
+#sixth condition and rule
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^edit-histoire/(.*) edit-histoire.php?slug=$1 [QSA]
+
+#sixth condition and rule
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^scene/(.*) scene.php?slug=$1 [QSA]
+

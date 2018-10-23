@@ -1,0 +1,1 @@
+ <a href="manage.html"> Votre Profile </a> | <a href="user.html"> User </a> |  <a href="password.html">Password  </a><!--|  <a href="#">Manage your Scenes  </a>-->   

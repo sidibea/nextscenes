@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Autorisation refusée!]]></value>
+  </definition>
+  <definition>
+    <key>text_permission</key>
+    <value><![CDATA[Vous n&#39;avez pas la permission d&#39;accéder à cette page, s&#39;il vous plaît vous référer à votre administrateur système.]]></value>
+  </definition>
+</definitions>

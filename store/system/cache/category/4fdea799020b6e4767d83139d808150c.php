@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:2:{i:0;a:5:{s:11:"category_id";s:2:"71";s:9:"parent_id";s:2:"68";s:4:"name";s:31:"Inspirational &gt; Motivational";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"0";}i:1;a:5:{s:11:"category_id";s:2:"72";s:9:"parent_id";s:2:"68";s:4:"name";s:28:"Inspirational &gt; Religious";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"0";}}

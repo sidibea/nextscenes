@@ -1,0 +1,1 @@
+ <a href="account-manage.php"> Your Profile </a> | <a href="account-manage-user.php"> Manage your User Profile</a> |  <a href="account-manage-pass.php">Manage your Password  </a><!--|  <a href="#">Manage your Scenes  </a>-->   

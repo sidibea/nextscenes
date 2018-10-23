@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:5:{s:13:"heading_title";s:28:"Notifications and Newsletter";s:12:"text_account";s:7:"Account";s:18:"text_notifications";s:13:"Notifications";s:12:"text_success";s:66:"Success: Your notification settings has been successfully updated!";s:14:"text_sendpoint";s:13:"Notifications";}

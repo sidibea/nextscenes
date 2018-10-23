@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Sauvegarde / Restauration / Charger]]></value>
+  </definition>
+  <definition>
+    <key>text_backup</key>
+    <value><![CDATA[Télécharger sauvegarde]]></value>
+  </definition>
+  <definition>
+    <key>text_success_backup</key>
+    <value><![CDATA[Succès: Vous avez créé le fichier de sauvegarde!]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[Succès: Vous avez réussi à importer votre base de données!]]></value>
+  </definition>
+  <definition>
+    <key>text_success_xml</key>
+    <value><![CDATA[Succès: Vous avez réussi à importer vos données XML!]]></value>
+  </definition>
+  <definition>
+    <key>entry_restore</key>
+    <value><![CDATA[Restaurer:]]></value>
+  </definition>
+  <definition>
+    <key>entry_backup</key>
+    <value><![CDATA[Sauvegarde:]]></value>
+  </definition>
+  <definition>
+    <key>entry_restore</key>
+    <value><![CDATA[Restaurer:]]></value>
+  </definition>
+  <definition>
+    <key>entry_loadxml</key>
+    <value><![CDATA[Chargez fichier XML:]]></value>
+  </definition>
+  <definition>
+    <key>tab_backup</key>
+    <value><![CDATA[Sauvegarde]]></value>
+  </definition>
+  <definition>
+    <key>tab_restore</key>
+    <value><![CDATA[Restaurer]]></value>
+  </definition>
+  <definition>
+    <key>tab_loadxml</key>
+    <value><![CDATA[charger le fichier XML]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[Attention: Vous n&#39;avez pas la permission de modifier les sauvegardes!]]></value>
+  </definition>
+  <definition>
+    <key>error_empty</key>
+    <value><![CDATA[Attention: Le fichier que vous avez téléchargé est vide!]]></value>
+  </definition>
+  <definition>
+    <key>error_xml</key>
+    <value><![CDATA[Attention: Le fichier que vous avez téléchargé ne pas chargé comme XML! S&#39;il vous plaît, voir fichier journal pour plus de détails]]></value>
+  </definition>
+  <definition>
+    <key>note_rl</key>
+    <value><![CDATA[Fichiers de bibliothèque de ressources]]></value>
+  </definition>
+  <definition>
+    <key>note_config</key>
+    <value><![CDATA[Fichier config.php. Remarque: maintenez de sauvegarde-archivage en toute sécurité. Fichier contiendra «sel» pour le cryptage.]]></value>
+  </definition>
+</definitions>

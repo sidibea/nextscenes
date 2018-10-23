@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:8:{s:10:"content_id";s:1:"3";s:11:"language_id";s:1:"1";s:4:"name";s:13:"Return Policy";s:5:"title";s:13:"Return Policy";s:11:"description";s:16:"some description";s:7:"content";s:29:"some text about return policy";s:10:"date_added";s:19:"2017-01-19 09:23:40";s:13:"date_modified";s:19:"2017-01-19 09:23:40";}

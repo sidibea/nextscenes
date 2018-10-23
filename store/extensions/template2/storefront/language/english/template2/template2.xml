@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>text_buy_now</key>
+		<value><![CDATA[buy now]]></value>
+	</definition>
+	<definition>
+		<key>text_pages</key>
+		<value><![CDATA[Pages:]]></value>
+	</definition>
+	<definition>
+		<key>text_next_page</key>
+		<value><![CDATA[next page]]></value>
+	</definition>
+	<definition>
+		<key>text_prev_page</key>
+		<value><![CDATA[prev page]]></value>
+	</definition>
+</definitions>

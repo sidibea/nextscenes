@@ -1,0 +1,40 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+#second condition and rule
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^forum/(.*) forums.php?slug=$1&page=$2 [QSA]
+
+#third condition and rule
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^audios/(.*) audio.php?slug=$1&page=$2 [QSA]
+
+#forth condition and rule
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^videos/(.*) video.php?slug=$1&page=$2 [QSA]
+
+#sixth condition and rule
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^mail/(.*) mails.php?slug=$1&page=$2 [QSA]
+
+#forth condition and rule
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^thread/(.*) threads.php?slug=$1&subject=$2 [QSA]
+
+#sixth condition and rule
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^users/(.*) user.php?slug=$1&page=$2 [QSA]
+
+#fifth condition and rule
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*) page.php?slug=$1&s=$2 [QSA]

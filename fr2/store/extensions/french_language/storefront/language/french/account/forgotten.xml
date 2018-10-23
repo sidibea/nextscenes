@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Vous avez oublié votre mot de passe?]]></value>
+  </definition>
+  <definition>
+    <key>text_account</key>
+    <value><![CDATA[Compte]]></value>
+  </definition>
+  <definition>
+    <key>text_forgotten</key>
+    <value><![CDATA[Mot de passe oublié]]></value>
+  </definition>
+  <definition>
+    <key>text_your_email</key>
+    <value><![CDATA[Votre Adresse E-Mail]]></value>
+  </definition>
+  <definition>
+    <key>text_email</key>
+    <value><![CDATA[Entrez l&#39;adresse e-mail associée à votre compte. Cliquez sur valider pour recevoir votre mot de passe par e-mail pour vous]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[Succès: Un nouveau mot de passe a été envoyé à votre adresse e-mail.]]></value>
+  </definition>
+  <definition>
+    <key>entry_email</key>
+    <value><![CDATA[Adresse E-Mail:]]></value>
+  </definition>
+  <definition>
+    <key>error_email</key>
+    <value><![CDATA[Erreur: L&#39;adresse E-Mail n&#39;a pas été trouvé dans nos dossiers, s&#39;il vous plaît essayer à nouveau!]]></value>
+  </definition>
+</definitions>

@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} !(\.[^./]+)$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) wrapper.php?slug=$1&page=$2 [QSA]

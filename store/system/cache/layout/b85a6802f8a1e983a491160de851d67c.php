@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#s:31:"blocks/banner_block_content.tpl";

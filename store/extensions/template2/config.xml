@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<extension>
+	<id>template2</id>
+	<version>1.0.2</version>
+	<cartversions>
+		<item>1.1.7</item>
+	</cartversions>
+	<priority>20</priority>
+	<type>template</type>
+	<category>template</category>
+	<dependencies>
+		<item prior_version="0.9" version="1.0.0">slideshow2</item>
+		<item prior_version="0.9" version="1.0.0">product_slider</item>
+	</dependencies>
+	<settings>
+		<item id="template2_status">
+			<type>checkbox</type>
+			<default_value>0</default_value>
+		</item>
+		<item id="template2_product_list_width">
+			<type>input</type>
+			<default_value>86</default_value>
+		</item>
+		<item id="template2_product_list_height">
+			<type>input</type>
+			<default_value>86</default_value>
+		</item>
+	</settings>
+	<additional_settings><![CDATA[setting/setting&active=appearance]]></additional_settings>
+	<note>true</note>
+	<preview>
+		<item>preview.jpg</item>
+		<item>preview1.jpg</item>
+		<item>preview2.jpg</item>
+	</preview>
+	<help_file><![CDATA[help.txt]]></help_file>	
+	<install>
+		<trigger>install.php</trigger>
+	</install>
+	<uninstall>
+		<trigger>uninstall.php</trigger>
+	</uninstall>
+</extension>

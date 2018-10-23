@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:8:{s:13:"heading_title";s:6:"Panier";s:13:"text_subtotal";s:11:"Sous-total:";s:10:"text_empty";s:10:"0 articles";s:12:"text_confirm";s:10:"Confirmer?";s:11:"text_remove";s:9:"Supprimer";s:9:"text_view";s:14:"Voir le panier";s:13:"text_checkout";s:6:"Caisse";s:10:"text_items";s:8:"Articles";}

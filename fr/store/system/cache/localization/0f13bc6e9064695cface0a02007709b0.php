@@ -1,0 +1,1 @@
+<?php die('Restricted Access!'); ?>#AbanteCart#a:3:{s:10:"text_title";s:16:"Cash On Delivery";s:9:"text_note";s:70:"Payment needs to be established upon delivery or pickup of the product";s:9:"text_wait";s:12:"Please wait!";}

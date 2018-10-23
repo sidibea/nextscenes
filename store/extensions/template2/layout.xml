@@ -1,0 +1,852 @@
+<template_layouts>
+    <layout>
+        <name>Default Page Layout</name>
+        <template_id>template2</template_id>
+        <type>General</type>
+        <pages>
+            <page>
+                <controller>generic</controller>
+                <page_descriptions>
+                    <page_description>
+                        <language>english</language>
+                        <name>All Other Pages</name>
+                    </page_description>
+                </page_descriptions>
+            </page>
+        </pages>
+        <blocks>
+            <!-- header start -->
+            <block>
+                <block_txt_id>header</block_txt_id>
+                <controller>common/header</controller>
+
+                <block>
+                    <block_txt_id>currency</block_txt_id>
+                    <controller>blocks/currency</controller>
+                    <templates>
+                        <template>
+                            <parent_block>header</parent_block>
+                            <template_name>blocks/currency.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+                <block>
+                    <block_txt_id>language</block_txt_id>
+                    <controller>blocks/language</controller>
+                    <templates>
+                        <template>
+                            <parent_block>header</parent_block>
+                            <template_name>blocks/language.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+                <block>
+                    <block_txt_id>cart</block_txt_id>
+                    <controller>blocks/cart</controller>
+                    <templates>
+                        <template>
+                            <parent_block>header</parent_block>
+                            <template_name>blocks/cart_top.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+            </block>
+            <!-- header end -->
+
+            <!-- column_left start -->
+            <block>
+                <block_txt_id>column_left</block_txt_id>
+                <controller>common/column_left</controller>
+
+                <block>
+                    <block_txt_id>category</block_txt_id>
+                    <controller>blocks/category</controller>
+                    <templates>
+                        <template>
+                            <parent_block>column_left</parent_block>
+                            <template_name>blocks/category.tpl</template_name>
+                        </template>
+                        <template>
+                            <parent_block>column_right</parent_block>
+                            <template_name>blocks/category.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+                <block>
+                    <block_txt_id>manufacturer</block_txt_id>
+                    <controller>blocks/manufacturer</controller>
+                    <templates>
+                        <template>
+                            <parent_block>column_left</parent_block>
+                            <template_name>blocks/manufacturer.tpl</template_name>
+                        </template>
+                        <template>
+                            <parent_block>column_right</parent_block>
+                            <template_name>blocks/manufacturer.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+            </block>
+            <!-- column_left end -->
+
+
+            <!-- column_right start -->
+            <block>
+                <block_txt_id>column_right</block_txt_id>
+                <controller>common/column_right</controller>
+
+	            <block>
+					<kind>custom</kind>
+					<type>html_block</type>
+					<custom_block_txt_id>template2_banner1_id</custom_block_txt_id>
+					<status>1</status>
+					<block_descriptions>
+						<block_description>
+							<language>english</language>
+							<name>Template2 Banner 1</name>
+							<title>Template2 Banner 1</title>
+							<block_wrapper>0</block_wrapper>
+                            <block_framed>0</block_framed>
+							<status>1</status>
+							<description></description>
+							<content><![CDATA[ <a href="http://google.com" onclick="window.open(this.href);return false;"><img src="extensions/template2/image/banner_right_1.jpg" alt="Template2 Banner 1" /></a>  ]]></content>
+						</block_description>
+					</block_descriptions>
+					<installed>
+					  <placeholder>column_right</placeholder>
+					</installed>
+	            </block>
+
+                <block>
+                    <block_txt_id>content</block_txt_id>
+                    <controller>blocks/content</controller>
+                    <templates>
+                        <template>
+                            <parent_block>column_left</parent_block>
+                            <template_name>blocks/content.tpl</template_name>
+                        </template>
+                        <template>
+                            <parent_block>column_right</parent_block>
+                            <template_name>blocks/content.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+	            <block>
+					<kind>custom</kind>
+					<type>html_block</type>
+		            <status>1</status>
+					<custom_block_txt_id>template2_banner2_id</custom_block_txt_id>
+					<block_descriptions>
+						<block_description>
+							<language>english</language>
+							<name>Template2 Banner 2</name>
+							<title>Template2 Banner 2</title>
+							<block_wrapper>0</block_wrapper>
+                            <block_framed>0</block_framed>
+							<status>1</status>
+							<description></description>
+							<content><![CDATA[ <a href="http://google.com" target="_blank"><img src="extensions/template2/image/banner_right_2.jpg" alt="Template2 Banner 2" /></a>   ]]></content>
+						</block_description>
+					</block_descriptions>
+					<installed>
+					  <placeholder>column_right</placeholder>
+					</installed>
+	            </block>
+
+            </block>
+            <!-- column_right end -->
+
+            <!-- content_top start -->
+            <block>
+                <block_txt_id>content_top</block_txt_id>
+                <controller>common/content_top</controller>
+            </block>
+            <!-- content_top end -->
+
+            <!-- content_bottom start -->
+            <block>
+                <block_txt_id>content_bottom</block_txt_id>
+                <controller>common/content_bottom</controller>
+            </block>
+            <!-- content_bottom end -->
+
+            <!-- footer start -->
+            <block>
+                <block_txt_id>footer</block_txt_id>
+                <controller>common/footer</controller>
+            </block>
+            <!-- footer end -->
+
+        </blocks>
+    </layout>
+
+    <layout>
+        <name>Home Layout</name>
+        <template_id>template2</template_id>
+        <type>Active</type>
+        <pages>
+            <page>
+                <controller>pages/index/home</controller>
+                <page_descriptions>
+                    <page_description>
+                        <language>english</language>
+                        <name>Home Page</name>
+                    </page_description>
+                </page_descriptions>
+            </page>
+        </pages>
+        <blocks>
+            <!-- header start -->
+            <block>
+                <block_txt_id>header</block_txt_id>
+                <controller>common/header</controller>
+
+                <block>
+                    <block_txt_id>currency</block_txt_id>
+                    <controller>blocks/currency</controller>
+                    <templates>
+                        <template>
+                            <parent_block>header</parent_block>
+                            <template_name>blocks/currency.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+                <block>
+                    <block_txt_id>language</block_txt_id>
+                    <controller>blocks/language</controller>
+                    <templates>
+                        <template>
+                            <parent_block>header</parent_block>
+                            <template_name>blocks/language.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+                <block>
+                    <block_txt_id>cart</block_txt_id>
+                    <controller>blocks/cart</controller>
+                    <templates>
+                        <template>
+                            <parent_block>header</parent_block>
+                            <template_name>blocks/cart_top.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+            </block>
+            <!-- header end -->
+
+            <!-- column_left start -->
+            <block>
+                <block_txt_id>column_left</block_txt_id>
+                <controller>common/column_left</controller>
+
+                <block>
+                    <block_txt_id>category</block_txt_id>
+                    <controller>blocks/category</controller>
+                    <templates>
+                        <template>
+                            <parent_block>column_left</parent_block>
+                            <template_name>blocks/category.tpl</template_name>
+                        </template>
+                        <template>
+                            <parent_block>column_right</parent_block>
+                            <template_name>blocks/category.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+                <block>
+                    <block_txt_id>manufacturer</block_txt_id>
+                    <controller>blocks/manufacturer</controller>
+                    <templates>
+                        <template>
+                            <parent_block>column_left</parent_block>
+                            <template_name>blocks/manufacturer.tpl</template_name>
+                        </template>
+                        <template>
+                            <parent_block>column_right</parent_block>
+                            <template_name>blocks/manufacturer.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+            </block>
+            <!-- column_left end -->
+
+
+            <!-- column_right start -->
+            <block>
+                <block_txt_id>column_right</block_txt_id>
+                <controller>common/column_right</controller>
+
+	            <block>
+					<kind>custom</kind>
+					<type>html_block</type>
+					<custom_block_txt_id>template2_banner1_id</custom_block_txt_id>
+					<status>1</status>
+					<block_descriptions>
+						<block_description>
+							<language>english</language>
+							<name>Template2 Banner 1</name>
+							<title>Template2 Banner 1</title>
+							<block_wrapper>0</block_wrapper>
+                            <block_framed>0</block_framed>
+							<status>1</status>
+							<description></description>
+							<content><![CDATA[ <a href="http://google.com" target="_blank"><img src="extensions/template2/image/banner_right_1.jpg" alt="Template2 Banner 1" /></a>  ]]></content>
+						</block_description>
+					</block_descriptions>
+					<installed>
+					  <placeholder>column_right</placeholder>
+					</installed>
+	            </block>
+
+
+                <block>
+                    <block_txt_id>content</block_txt_id>
+                    <controller>blocks/content</controller>
+                    <templates>
+                        <template>
+                            <parent_block>column_left</parent_block>
+                            <template_name>blocks/content.tpl</template_name>
+                        </template>
+                        <template>
+                            <parent_block>column_right</parent_block>
+                            <template_name>blocks/content.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+	            <block>
+					<kind>custom</kind>
+					<type>html_block</type>
+		            <status>1</status>
+					<custom_block_txt_id>template2_banner2_id</custom_block_txt_id>
+					<block_descriptions>
+						<block_description>
+							<language>english</language>
+							<name>Template2 Banner 2</name>
+							<title>Template2 Banner 2</title>
+							<block_wrapper>0</block_wrapper>
+                            <block_framed>0</block_framed>
+							<status>1</status>
+							<description></description>
+							<content><![CDATA[ <a href="http://google.com" target="_blank"><img src="extensions/template2/image/banner_right_2.jpg" alt="Template2 Banner 2" /></a>   ]]></content>
+						</block_description>
+					</block_descriptions>
+					<installed>
+					  <placeholder>column_right</placeholder>
+					</installed>
+	            </block>
+
+            </block>
+            <!-- column_right end -->
+
+            <!-- content_top start -->
+            <block>
+                <block_txt_id>content_top</block_txt_id>
+                <controller>common/content_top</controller>
+
+	            <block>
+                    <block_txt_id>slideshow2</block_txt_id>
+                    <controller>blocks/slideshow2</controller>
+                    <templates>
+                        <template>
+                            <parent_block>content_top</parent_block>
+                            <template_name>blocks/slideshow2.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+	            <block>
+                    <block_txt_id>product_slider</block_txt_id>
+                    <controller>blocks/product_slider</controller>
+                    <templates>
+                        <template>
+                            <parent_block>content_top</parent_block>
+                            <template_name>blocks/product_slider.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+            </block>
+            <!-- content_top end -->
+
+            <!-- content_bottom start -->
+            <block>
+                <block_txt_id>content_bottom</block_txt_id>
+                <controller>common/content_bottom</controller>
+
+                <block>
+                    <block_txt_id>latest</block_txt_id>
+                    <controller>blocks/latest</controller>
+                    <templates>
+                        <template>
+                            <parent_block>content_bottom</parent_block>
+                            <template_name>blocks/latest_home.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+            </block>
+            <!-- content_bottom end -->
+
+            <!-- footer start -->
+            <block>
+                <block_txt_id>footer</block_txt_id>
+                <controller>common/footer</controller>
+            </block>
+            <!-- footer end -->
+
+        </blocks>
+    </layout>
+
+    <layout>
+        <name>Product Listing Page Layout</name>
+        <template_id>template2</template_id>
+        <type>Active</type>
+        <pages>
+            <page>
+                <controller>pages/product</controller>
+                <page_descriptions>
+                    <page_description>
+                        <language>english</language>
+                        <name>Product Listing Page</name>
+                    </page_description>
+                </page_descriptions>
+            </page>
+        </pages>
+        <blocks>
+
+            <!-- header start -->
+            <block>
+                <block_txt_id>header</block_txt_id>
+                <controller>common/header</controller>
+
+                <block>
+                    <block_txt_id>currency</block_txt_id>
+                    <controller>blocks/currency</controller>
+                    <templates>
+                        <template>
+                            <parent_block>header</parent_block>
+                            <template_name>blocks/currency.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+                <block>
+                    <block_txt_id>language</block_txt_id>
+                    <controller>blocks/language</controller>
+                    <templates>
+                        <template>
+                            <parent_block>header</parent_block>
+                            <template_name>blocks/language.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+                <block>
+                    <block_txt_id>cart</block_txt_id>
+                    <controller>blocks/cart</controller>
+                    <templates>
+                        <template>
+                            <parent_block>header</parent_block>
+                            <template_name>blocks/cart_top.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+            </block>
+            <!-- header end -->
+
+            <!-- column_left start -->
+            <block>
+                <block_txt_id>column_left</block_txt_id>
+                <controller>common/column_left</controller>
+
+                <block>
+                    <block_txt_id>category</block_txt_id>
+                    <controller>blocks/category</controller>
+                    <templates>
+                        <template>
+                            <parent_block>column_left</parent_block>
+                            <template_name>blocks/category.tpl</template_name>
+                        </template>
+                        <template>
+                            <parent_block>column_right</parent_block>
+                            <template_name>blocks/category.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+                <block>
+                    <block_txt_id>manufacturer</block_txt_id>
+                    <controller>blocks/manufacturer</controller>
+                    <templates>
+                        <template>
+                            <parent_block>column_left</parent_block>
+                            <template_name>blocks/manufacturer.tpl</template_name>
+                        </template>
+                        <template>
+                            <parent_block>column_right</parent_block>
+                            <template_name>blocks/manufacturer.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+                <block>
+                    <block_txt_id>content</block_txt_id>
+                    <controller>blocks/content</controller>
+                    <templates>
+                        <template>
+                            <parent_block>column_left</parent_block>
+                            <template_name>blocks/content.tpl</template_name>
+                        </template>
+                        <template>
+                            <parent_block>column_right</parent_block>
+                            <template_name>blocks/content.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+            </block>
+            <!-- column_left end -->
+
+            <block>
+                <block_txt_id>column_right</block_txt_id>
+                <controller>common/column_right</controller>
+                <status>0</status>
+            </block>
+
+            <!-- content_top start -->
+            <block>
+                <block_txt_id>content_top</block_txt_id>
+                <controller>common/content_top</controller>
+            </block>
+            <!-- content_top end -->
+
+            <!-- content_bottom start -->
+            <block>
+                <block_txt_id>content_bottom</block_txt_id>
+                <controller>common/content_bottom</controller>
+            </block>
+            <!-- content_bottom end -->
+
+            <!-- footer start -->
+            <block>
+                <block_txt_id>footer</block_txt_id>
+                <controller>common/footer</controller>
+            </block>
+            <!-- footer end -->
+
+        </blocks>
+    </layout>
+
+    <layout>
+        <name>Login Page Layout</name>
+        <template_id>template2</template_id>
+        <type>Active</type>
+        <pages>
+            <page>
+                <controller>pages/account/login</controller>
+                <page_descriptions>
+                    <page_description>
+                        <language>english</language>
+                        <name>Login Page</name>
+                    </page_description>
+                </page_descriptions>
+            </page>
+        </pages>
+        <blocks>
+
+            <!-- header start -->
+            <block>
+                <block_txt_id>header</block_txt_id>
+                <controller>common/header</controller>
+
+                <block>
+                    <block_txt_id>currency</block_txt_id>
+                    <controller>blocks/currency</controller>
+                    <templates>
+                        <template>
+                            <parent_block>header</parent_block>
+                            <template_name>blocks/currency.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+                <block>
+                    <block_txt_id>language</block_txt_id>
+                    <controller>blocks/language</controller>
+                    <templates>
+                        <template>
+                            <parent_block>header</parent_block>
+                            <template_name>blocks/language.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+                <block>
+                    <block_txt_id>cart</block_txt_id>
+                    <controller>blocks/cart</controller>
+                    <templates>
+                        <template>
+                            <parent_block>header</parent_block>
+                            <template_name>blocks/cart_top.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+            </block>
+            <!-- header end -->
+
+            <block>
+                <block_txt_id>column_left</block_txt_id>
+                <controller>common/column_left</controller>
+                <status>0</status>
+            </block>
+
+            <block>
+                <block_txt_id>column_right</block_txt_id>
+                <controller>common/column_right</controller>
+                <status>0</status>
+            </block>
+
+            <!-- content_top start -->
+            <block>
+                <block_txt_id>content_top</block_txt_id>
+                <controller>common/content_top</controller>
+            </block>
+            <!-- content_top end -->
+
+            <!-- content_bottom start -->
+            <block>
+                <block_txt_id>content_bottom</block_txt_id>
+                <controller>common/content_bottom</controller>
+            </block>
+            <!-- content_bottom end -->
+
+            <!-- footer start -->
+            <block>
+                <block_txt_id>footer</block_txt_id>
+                <controller>common/footer</controller>
+            </block>
+            <!-- footer end -->
+
+        </blocks>
+    </layout>
+
+    <layout>
+        <name>Default Product Page Layout</name>
+        <template_id>template2</template_id>
+        <type>Active</type>
+        <pages>
+            <page>
+                <controller>pages/product/product</controller>
+                <page_descriptions>
+                    <page_description>
+                        <language>english</language>
+                        <name>Default Product Page</name>
+                    </page_description>
+                </page_descriptions>
+            </page>
+        </pages>
+        <blocks>
+
+            <!-- header start -->
+            <block>
+                <block_txt_id>header</block_txt_id>
+                <controller>common/header</controller>
+
+                <block>
+                    <block_txt_id>currency</block_txt_id>
+                    <controller>blocks/currency</controller>
+                    <templates>
+                        <template>
+                            <parent_block>header</parent_block>
+                            <template_name>blocks/currency.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+                <block>
+                    <block_txt_id>language</block_txt_id>
+                    <controller>blocks/language</controller>
+                    <templates>
+                        <template>
+                            <parent_block>header</parent_block>
+                            <template_name>blocks/language.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+                <block>
+                    <block_txt_id>cart</block_txt_id>
+                    <controller>blocks/cart</controller>
+                    <templates>
+                        <template>
+                            <parent_block>header</parent_block>
+                            <template_name>blocks/cart_top.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+            </block>
+            <!-- header end -->
+
+            <block>
+                <block_txt_id>column_left</block_txt_id>
+                <controller>common/column_left</controller>
+                <status>0</status>
+            </block>
+
+            <block>
+                <block_txt_id>column_right</block_txt_id>
+                <controller>common/column_right</controller>
+                <status>0</status>
+            </block>
+
+            <!-- content_top start -->
+            <block>
+                <block_txt_id>content_top</block_txt_id>
+                <controller>common/content_top</controller>
+            </block>
+            <!-- content_top end -->
+
+            <!-- content_bottom start -->
+            <block>
+                <block_txt_id>content_bottom</block_txt_id>
+                <controller>common/content_bottom</controller>
+            </block>
+            <!-- content_bottom end -->
+
+            <!-- footer start -->
+            <block>
+                <block_txt_id>footer</block_txt_id>
+                <controller>common/footer</controller>
+            </block>
+            <!-- footer end -->
+
+        </blocks>
+    </layout>
+
+    <layout>
+        <name>Checkout Pages Layout</name>
+        <template_id>template2</template_id>
+        <type>Active</type>
+        <pages>
+            <page>
+                <controller>pages/checkout</controller>
+                <page_descriptions>
+                    <page_description>
+                        <language>english</language>
+                        <name>Checkout Page</name>
+                    </page_description>
+                </page_descriptions>
+            </page>
+        </pages>
+        <blocks>
+
+            <!-- header start -->
+            <block>
+                <block_txt_id>header</block_txt_id>
+                <controller>common/header</controller>
+
+                <block>
+                    <block_txt_id>currency</block_txt_id>
+                    <controller>blocks/currency</controller>
+                    <templates>
+                        <template>
+                            <parent_block>header</parent_block>
+                            <template_name>blocks/currency.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+                <block>
+                    <block_txt_id>language</block_txt_id>
+                    <controller>blocks/language</controller>
+                    <templates>
+                        <template>
+                            <parent_block>header</parent_block>
+                            <template_name>blocks/language.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+                <block>
+                    <block_txt_id>cart</block_txt_id>
+                    <controller>blocks/cart</controller>
+                    <templates>
+                        <template>
+                            <parent_block>header</parent_block>
+                            <template_name>blocks/cart_top.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+            </block>
+            <!-- header end -->
+
+            <!-- column_left start -->
+            <block>
+                <block_txt_id>column_left</block_txt_id>
+                <controller>common/column_left</controller>
+
+                <block>
+                    <block_txt_id>order_summary</block_txt_id>
+                    <controller>blocks/order_summary</controller>
+                    <templates>
+                        <template>
+                            <parent_block>column_left</parent_block>
+                            <template_name>blocks/order_summary.tpl</template_name>
+                        </template>
+                        <template>
+                            <parent_block>column_right</parent_block>
+                            <template_name>blocks/order_summary.tpl</template_name>
+                        </template>
+                    </templates>
+                </block>
+
+            </block>
+            <!-- column_left end -->
+
+            <block>
+                <block_txt_id>column_right</block_txt_id>
+                <controller>common/column_right</controller>
+                <status>0</status>
+            </block>
+
+            <!-- content_top start -->
+            <block>
+                <block_txt_id>content_top</block_txt_id>
+                <controller>common/content_top</controller>
+            </block>
+            <!-- content_top end -->
+
+            <!-- content_bottom start -->
+            <block>
+                <block_txt_id>content_bottom</block_txt_id>
+                <controller>common/content_bottom</controller>
+            </block>
+            <!-- content_bottom end -->
+
+            <!-- footer start -->
+            <block>
+                <block_txt_id>footer</block_txt_id>
+                <controller>common/footer</controller>
+            </block>
+            <!-- footer end -->
+
+        </blocks>
+    </layout>
+
+</template_layouts>

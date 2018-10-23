@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>template2_name</key>
+		<value><![CDATA[template2 template]]></value>
+	</definition>
+	<definition>
+		<key>template2_status</key>
+		<value><![CDATA[Status]]></value>
+	</definition>
+	<definition>
+		<key>template2_status_0</key>
+		<value><![CDATA[Disabled]]></value>
+	</definition>
+	<definition>
+		<key>template2_status_1</key>
+		<value><![CDATA[Enabled]]></value>
+	</definition>
+	<definition>
+		<key>template2_product_list_width</key>
+		<value><![CDATA[Product list width]]></value>
+	</definition>
+	<definition>
+		<key>template2_product_list_height</key>
+		<value><![CDATA[Product list height]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[ Select Template]]></value>
+	</definition>
+	<definition>
+		<key>template2_note</key>
+		<value><![CDATA[<b>PLEASE NOTE:</b> you can manage this template only if template extension <b>ENABLED</b>
+		<br/>
+		<br/>To enable this template in the storefront please go to System -> Settings -> <a href="#admin#rt=setting/setting&active=appearance" target="_template">Appearance</a>. Choose store you want to edit and update template option
+		<br/> Or Press "Select Template" button - it will redirect you to settings section
+		<br/>
+		<br/><b>Banners</b>: to edit banners please go to Design -> <a href="#admin#rt=design/blocks" target="_banners">Blocks</a>.<br/>
+		 There are two blocks - "Template2 Banner 1" and "Template2 Banner 2"]]></value>
+	</definition>
+</definitions>

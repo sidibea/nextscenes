@@ -1,0 +1,27 @@
+#content_top, .element_description, .element_error { zoom: 0; }
+#language { width:148px; }
+.h_section1 .flt_right { width:502px; }
+.h_section1 .flt_right .flt_left + .flt_left {}
+.h_section1 .flt_right .flt_left + .flt_left + .flt_left {}
+#info_links li {float:left;}
+
+.tabs a { width:200px; }
+.tabs a span.tab_text {float:left; width:150px; text-align: center;}
+
+#slideshow_nav a {
+	text-indent:0;
+	font-size:0;
+	padding-top:7px;
+	overflow:hidden;
+}
+
+.pagination_top { width:50%; text-align:right; }
+
+.container-long #content_mid {
+	width:100%;
+}
+
+.tabs a {
+	line-height:normal;
+	height:36px;
+}

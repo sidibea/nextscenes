@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>text_enlarge</key>
+    <value><![CDATA[Cliquez sur l&#39;image pour l&#39;agrandir]]></value>
+  </definition>
+  <definition>
+    <key>text_discount</key>
+    <value><![CDATA[Remise sur quantité:]]></value>
+  </definition>
+  <definition>
+    <key>text_options</key>
+    <value><![CDATA[Options disponibles:]]></value>
+  </definition>
+  <definition>
+    <key>text_error</key>
+    <value><![CDATA[Produit non trouvé!]]></value>
+  </definition>
+  <definition>
+    <key>text_price</key>
+    <value><![CDATA[Prix:]]></value>
+  </definition>
+  <definition>
+    <key>text_availability</key>
+    <value><![CDATA[Disponibilité:]]></value>
+  </definition>
+  <definition>
+    <key>text_model</key>
+    <value><![CDATA[Modèle:]]></value>
+  </definition>
+  <definition>
+    <key>text_manufacturer</key>
+    <value><![CDATA[Fabricant:]]></value>
+  </definition>
+  <definition>
+    <key>text_instock</key>
+    <value><![CDATA[En Stock]]></value>
+  </definition>
+  <definition>
+    <key>text_order_quantity</key>
+    <value><![CDATA[Quantité]]></value>
+  </definition>
+  <definition>
+    <key>text_price_per_item</key>
+    <value><![CDATA[Prix ​​par article]]></value>
+  </definition>
+  <definition>
+    <key>text_write</key>
+    <value><![CDATA[Ecrire une critique]]></value>
+  </definition>
+  <definition>
+    <key>text_no_reviews</key>
+    <value><![CDATA[Il n&#39;y a aucun avis pour ce produit.]]></value>
+  </definition>
+  <definition>
+    <key>text_average</key>
+    <value><![CDATA[Moyenne des notes:]]></value>
+  </definition>
+  <definition>
+    <key>text_stars</key>
+    <value><![CDATA[%s sur 5 étoiles!]]></value>
+  </definition>
+  <definition>
+    <key>text_no_rating</key>
+    <value><![CDATA[Pas de note]]></value>
+  </definition>
+  <definition>
+    <key>text_no_images</key>
+    <value><![CDATA[Il n&#39;y a pas d&#39;images supplémentaires pour ce produit.]]></value>
+  </definition>
+  <definition>
+    <key>text_no_related</key>
+    <value><![CDATA[Il n&#39;y a pas de produits similaires pour ce produit.]]></value>
+  </definition>
+  <definition>
+    <key>text_qty</key>
+    <value><![CDATA[Quantité:]]></value>
+  </definition>
+  <definition>
+    <key>text_note</key>
+    <value><![CDATA[<span style="color: #FF0000;">NB: Le</span> HTML n&#39;est pas traduit!]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[Je vous remercie de votre avis. Il a été soumis au webmaster pour approbation.]]></value>
+  </definition>
+  <definition>
+    <key>text_wait</key>
+    <value><![CDATA[Attendez s&#39;il vous plaît!]]></value>
+  </definition>
+  <definition>
+    <key>text_search</key>
+    <value><![CDATA[Rechercher]]></value>
+  </definition>
+  <definition>
+    <key>text_tags</key>
+    <value><![CDATA[Tags:]]></value>
+  </definition>
+  <definition>
+    <key>text_minimum</key>
+    <value><![CDATA[(Ce produit a une quantité minimale de %s )]]></value>
+  </definition>
+  <definition>
+    <key>entry_name</key>
+    <value><![CDATA[Votre nom:]]></value>
+  </definition>
+  <definition>
+    <key>entry_review</key>
+    <value><![CDATA[Votre avis:]]></value>
+  </definition>
+  <definition>
+    <key>entry_rating</key>
+    <value><![CDATA[Note:]]></value>
+  </definition>
+  <definition>
+    <key>entry_good</key>
+    <value><![CDATA[Bon]]></value>
+  </definition>
+  <definition>
+    <key>entry_bad</key>
+    <value><![CDATA[Mauvais]]></value>
+  </definition>
+  <definition>
+    <key>entry_captcha</key>
+    <value><![CDATA[Entrez le code dans la case ci-dessous:]]></value>
+  </definition>
+  <definition>
+    <key>tab_description</key>
+    <value><![CDATA[Description]]></value>
+  </definition>
+  <definition>
+    <key>tab_image</key>
+    <value><![CDATA[Images additionnelles]]></value>
+  </definition>
+  <definition>
+    <key>tab_review</key>
+    <value><![CDATA[Avis ( %s )]]></value>
+  </definition>
+  <definition>
+    <key>tab_related</key>
+    <value><![CDATA[Produits connexes]]></value>
+  </definition>
+  <definition>
+    <key>error_name</key>
+    <value><![CDATA[Erreur: Nom de révision doit être comprise entre 3 et 25 caractères!]]></value>
+  </definition>
+  <definition>
+    <key>error_text</key>
+    <value><![CDATA[Erreur: Texte de révision doit être comprise entre 25 et 1000 caractères!]]></value>
+  </definition>
+  <definition>
+    <key>error_rating</key>
+    <value><![CDATA[Erreur: S&#39;il vous plaît choisir une note de révision!]]></value>
+  </definition>
+  <definition>
+    <key>error_captcha</key>
+    <value><![CDATA[Erreur: le code de vérification ne correspond pas à l&#39;image!]]></value>
+  </definition>
+</definitions>

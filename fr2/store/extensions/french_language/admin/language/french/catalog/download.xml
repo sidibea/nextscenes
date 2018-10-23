@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>heading_title</key>
+    <value><![CDATA[Téléchargements]]></value>
+  </definition>
+  <definition>
+    <key>text_download</key>
+    <value><![CDATA[Télécharger]]></value>
+  </definition>
+  <definition>
+    <key>insert_title</key>
+    <value><![CDATA[Insérez Télécharger]]></value>
+  </definition>
+  <definition>
+    <key>update_title</key>
+    <value><![CDATA[Mise à jour Télécharger]]></value>
+  </definition>
+  <definition>
+    <key>text_success</key>
+    <value><![CDATA[Succès: Vous avez modifié téléchargements!]]></value>
+  </definition>
+  <definition>
+    <key>column_name</key>
+    <value><![CDATA[Télécharger Nom]]></value>
+  </definition>
+  <definition>
+    <key>column_remaining</key>
+    <value><![CDATA[Téléchargements totaux autorisés]]></value>
+  </definition>
+  <definition>
+    <key>column_action</key>
+    <value><![CDATA[Action]]></value>
+  </definition>
+  <definition>
+    <key>entry_name</key>
+    <value><![CDATA[Télécharger Nom:]]></value>
+  </definition>
+  <definition>
+    <key>entry_filename</key>
+    <value><![CDATA[Nom du fichier:]]></value>
+  </definition>
+  <definition>
+    <key>entry_remaining</key>
+    <value><![CDATA[Téléchargements totaux autorisés:]]></value>
+  </definition>
+  <definition>
+    <key>entry_update</key>
+    <value><![CDATA[Poussez à ses anciens clients: <br /> <span class="help">Cochez cette case pour mettre à jour les versions précédemment achetés ainsi.</span>]]></value>
+  </definition>
+  <definition>
+    <key>error_permission</key>
+    <value><![CDATA[Attention: Vous n&#39;avez pas la permission de modifier téléchargements!]]></value>
+  </definition>
+  <definition>
+    <key>error_name</key>
+    <value><![CDATA[Nom doit être comprise entre 2 et 64 caractères!]]></value>
+  </definition>
+  <definition>
+    <key>error_file</key>
+    <value><![CDATA[S&#39;il vous plaît choisir le fichier de téléchargement.]]></value>
+  </definition>
+  <definition>
+    <key>error_product</key>
+    <value><![CDATA[Avertissement: Ce téléchargement ne peut pas être supprimé car il est actuellement assigné à %s produits!]]></value>
+  </definition>
+</definitions>
